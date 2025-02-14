@@ -1,0 +1,28 @@
+/* Thiết lập kích thước cố định cho các khối chứa hình ảnh */
+.category-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+/* Đảm bảo rằng hình ảnh luôn chiếm kích thước cố định mà không bị méo */
+.img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-container img {
+  object-fit: cover; /* Đảm bảo hình ảnh luôn phủ đầy khối mà không bị méo */
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  /* aspect-ratio: 1/1; */
+}
+
+.bg-cdd {
+  background-color: #959fa8;
+}
