@@ -26,6 +26,14 @@
 .bg-cdd {
   background-color: #959fa8;
 }
+
 .bg-cddr {
   background-color: #2a2a2b;
+}
+
+.card-title--limit {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
