@@ -31,6 +31,64 @@
   background-color: #2a2a2b;
 }
 
+.bg-ccc {
+  background: #fbfbfb;
+}
+
+.gp-2 {
+  gap: 20px;
+}
+
+.gp-10 {
+  gap: 10px;
+}
+
+.gp-5 {
+  gap: 5px;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.text-hover {
+  color: #202020;
+  transition: 0.3s ease;
+}
+
+.text-hover:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.color-cddr {
+  color: rgba(0, 0, 0, 0.87);
+}
+.color-cdd {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.item-size {
+  background-color: #fff;
+  border-radius: 0.125rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  height: 1.875rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  overflow: hidden;
+  padding: 0.25rem;
+  width: 3.75rem;
+}
+
 .card-title--limit {
   display: -webkit-box;
   -webkit-line-clamp: 2;
