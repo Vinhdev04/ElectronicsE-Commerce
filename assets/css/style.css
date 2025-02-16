@@ -96,6 +96,21 @@
   overflow: hidden;
 }
 
+.ms-10 {
+  margin-left: -10px;
+}
+
+.mr-10 {
+  margin-right: -15px;
+}
+
+.mb-50 {
+  margin-bottom: 4px;
+}
+
+.pr-3 {
+  padding-right: 3px;
+}
 /* -------- Custom Swiper  -------- */
 .swiper-pagination-bullet {
   width: 14px;
@@ -173,4 +188,9 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   max-height: 80px;
+}
+
+.banner-swiper .swiper-slide-button {
+  color: #fff;
+  margin-top: 0;
 }
