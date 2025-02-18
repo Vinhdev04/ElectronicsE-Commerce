@@ -194,3 +194,99 @@
   color: #fff;
   margin-top: 0;
 }
+
+.filter__box {
+  background-color: #fff;
+  border: 1px solid #2a83e9;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 3px 12px;
+  background: #fff;
+  color: #4a90e2;
+  transition: 0.3s ease;
+  margin-right: 6px;
+}
+
+.filter__box:hover {
+  background: #f1f8fe;
+  cursor: grabbing;
+  border: 1px solid #2a83e9;
+}
+
+.filter__box p {
+  font-size: 18px;
+}
+
+.filter__branch {
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  color: #333;
+  display: flex;
+  font-size: 14px;
+  line-height: 13px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  min-height: 36px;
+  max-height: 36px;
+  padding: 8px 13px;
+  vertical-align: top;
+  transition: 0.3s ease;
+}
+
+.filter__branch--active {
+  border: 1px solid #2a83e9;
+}
+
+.filter__branch i {
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  display: inline-block;
+  margin-right: 6px;
+  color: #2a83e9;
+}
+
+.filter__branch img {
+  vertical-align: middle;
+  width: auto;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.filter__branch:hover {
+  background: #f1f8fe;
+  cursor: grabbing;
+  border: 1px solid #2a83e9;
+}
+
+.product.show {
+  display: flex;
+}
+
+.product.hide {
+  display: none;
+}
+@media (max-width: 767.98px) {
+  .filter__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .filter__wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 4px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .filter__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+  }
+}
