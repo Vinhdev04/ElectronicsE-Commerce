@@ -1,3 +1,11 @@
+import {
+  btnCreateAccount,
+  btnSignUp,
+  isShowSignIn,
+  isShowSignUp,
+  signUp,
+} from "./variable.js";
+
 const swiper = new Swiper(".card-swiper", {
   loop: true, // Enable loop if needed
   slidesPerView: "auto", // Adjust to show multiple slides at once
@@ -68,16 +76,6 @@ const swiperBanner = new Swiper(".banner-swiper", {
   },
 });
 
-//TODO: HANDLE SHOW LOGIN/SIGNUP
-const isShowSignIn = document.getElementById("sign-in");
-console.log(isShowSignIn);
-const isShowSignUp = document.getElementById("sign-up");
-console.log(isShowSignUp);
-const btnCreateAccount = document.getElementById("btn-createAccount");
-console.log(btnCreateAccount);
-const btnSignUp = document.getElementById("btn-Signup");
-console.log(btnSignUp);
-
 //TODO: HANDLE EVENTS
 btnCreateAccount.addEventListener("click", () => {
   isShowSignIn.style.display = "none";
@@ -87,4 +85,9 @@ btnCreateAccount.addEventListener("click", () => {
 btnSignUp.addEventListener("click", () => {
   isShowSignIn.style.display = "block";
   isShowSignUp.style.display = "none";
+});
+
+signUp.addEventListener("click", () => {
+  isShowSignUp.style.display = "block";
+  isShowSignIn.style.display = "none";
 });

@@ -1,0 +1,67 @@
+{
+  "Products": [
+    {
+      "ID": "01",
+      "Title": "iPhone 16 Pro Max",
+      "Stock": 150,
+      "Price": {
+        "original": 34990000,
+        "sale": 32890000
+      },
+      "Rating": 4.5,
+      "Category": ["dien thoai", "laptop", "pc"],
+      "Thumbnail": "https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-600x600.jpg",
+
+      "Href": "https://example.com/product/12345",
+      "Description": "This is a great smartphone with powerful features.",
+      "Comments": [
+        {
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Đã trãi nghiệm hơn 1 tuần thấy trơn chu mượt, màn 6.9 tưởng to và khó cầm nắm nhưng không , cảm giác máy cầm đầm tay nhẹ hơn con 14prm 1 chút. Pin cũng trâu với tác vụ bình thường không chơi game thì em xài 2 ngày sạc lần."
+        },
+        {
+          "user": "Jane Doe",
+          "rating": 4,
+          "comment": "Cho hỏi. Mua iphone 16pro max hôm 5/1/2025 nhưng nay cáp sạc bị hỏng. Thì có dc bảo hành kg ạ"
+        }
+      ],
+      "Discount": "10%"
+    },
+    {
+      "ID": "02",
+      "Title": "Samsung Galaxy S24",
+      "Stock": 200,
+      "Price": {
+        "original": 29990000,
+        "sale": 27990000
+      },
+      "Rating": 4.8,
+      "Category": ["dien thoai", "laptop"],
+      "Thumbnail": "//assets/images/Devices/SmartPhone/samsung-s24-thumb-600x600.jpg",
+      "Href": "https://example.com/product/67890",
+      "Description": "A stunning phone with advanced features.",
+      "Comments": [
+        {
+          "user": "Alice",
+          "rating": 5,
+          "comment": "Super fast, smooth performance, love the camera quality."
+        }
+      ],
+      "Discount": "20%"
+    }
+  ],
+  "Category": {
+    "Categories": [
+      "dien thoai",
+      "laptop",
+      "pc",
+      "may anh",
+      "tablet",
+      "phu kien"
+    ]
+  },
+  "Total": {
+    "Total": 350
+  }
+}
