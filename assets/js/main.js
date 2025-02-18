@@ -67,3 +67,24 @@ const swiperBanner = new Swiper(".banner-swiper", {
     },
   },
 });
+
+//TODO: HANDLE SHOW LOGIN/SIGNUP
+const isShowSignIn = document.getElementById("sign-in");
+console.log(isShowSignIn);
+const isShowSignUp = document.getElementById("sign-up");
+console.log(isShowSignUp);
+const btnCreateAccount = document.getElementById("btn-createAccount");
+console.log(btnCreateAccount);
+const btnSignUp = document.getElementById("btn-Signup");
+console.log(btnSignUp);
+
+//TODO: HANDLE EVENTS
+btnCreateAccount.addEventListener("click", () => {
+  isShowSignIn.style.display = "none";
+  isShowSignUp.style.display = "block";
+});
+
+btnSignUp.addEventListener("click", () => {
+  isShowSignIn.style.display = "block";
+  isShowSignUp.style.display = "none";
+});
