@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vaniiz It | Web Development" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Favicon/icon-57.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Electronics E-Commerce</title>
+  </head>
+  <body>
+    <!-- *Sub-Menu* -->
+    <section class="header__sub border-bottom">
+      <div class="container">
+        <div class="row">
+          <div
+            class="header__top d-flex justify-content-between mt-3 d-none d-md-flex"
+          >
+            <div class="header__info d-flex align-items-center">
+              <p class="border-end px-2 me-2">+84 352 032 375</p>
+
+              <p>Store Location</p>
+            </div>
+            <div class="header__discount">
+              <p>Tell a friend about Group & get 20% discount</p>
+            </div>
+            <div class="header__option">
+              <select name="" id="" class="me-3 border-0">
+                <option value="Vnd">VND</option>
+                <option value="Usd">USD</option>
+                <option value="Euro">EURO</option>
+              </select>
+
+              <a href="login.html" class="text-black text-decoration-none"
+                >Sign In</a
+              >
+              <span>/</span>
+              <a
+                href="signUp.html"
+                class="text-black text-decoration-none"
+                id="sign-Up"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *Navbar* -->
+    <section class="header__bar py-4 bg-white">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-primary fw-bolder" href="index.html"
+            >Vaniiz IT</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-uppercase"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-uppercase"
+                  href="#category"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Electrics Devices
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Laptop</a></li>
+                  <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">PC</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-uppercase"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Technical</a></li>
+                  <li><a class="dropdown-item" href="#">Another Blog</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Experiment</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-uppercase"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Vaniiz IT</a></li>
+                  <li><a class="dropdown-item" href="#">Another Pages</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- *Header* -->
+    <header class="header py-5 border-bottom bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <div class="mb-3 mb-md-0">
+              <h4 class="text-uppercase text-warning">Sale up to 30% off</h4>
+              <h1 class="mt-3 me-4">Apple Watch Series</h1>
+              <p class="">
+                Featured packed at a better value than over powerful sensors to
+                monitor your fitness
+              </p>
+              <button class="btn btn-danger rounded-pill">Shop Now</button>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div>
+              <img
+                src="./assets/images/Devices/Image 1.png"
+                alt=""
+                class="img-fluid shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="support py-5 border-bottom">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <!-- Đảm bảo các khối cao bằng nhau -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div
+              class="bg-info-subtle p-4 d-flex flex-column align-items-center rounded-3 h-100"
+            >
+              <h3>Chat support</h3>
+              <p class="fs-6 text-secondary text-center">
+                Let's go! Our support team is just a click away right here
+              </p>
+              <div class="mt-auto">
+                <!-- Đẩy link xuống đáy -->
+                <a
+                  href="#!"
+                  class="text-decoration-none d-flex align-items-center"
+                  target="_blank"
+                >
+                  <span class="text">Chat Now </span>
+                  <i class="fa-solid fa-arrow-right ms-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div
+              class="bg-info-subtle p-4 d-flex flex-column align-items-center rounded-3 h-100"
+            >
+              <h3>Email support</h3>
+              <p class="fs-6 text-secondary text-center">
+                Prefer to email? Send us an email and we'll get back to you soon
+              </p>
+              <div class="mt-auto">
+                <a
+                  href="#!"
+                  class="text-decoration-none d-flex align-items-center"
+                  target="_blank"
+                >
+                  <span class="text">Send email </span>
+                  <i class="fa-solid fa-arrow-right ms-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div
+              class="bg-info-subtle p-4 d-flex flex-column align-items-center rounded-3 h-100"
+            >
+              <h3>Help center</h3>
+              <p class="fs-6 text-secondary text-center">
+                Our self-serve help center is open 24/7 with 150+ articles to
+                help
+              </p>
+              <div class="mt-auto">
+                <a
+                  href="#!"
+                  class="text-decoration-none d-flex align-items-center"
+                  target="_blank"
+                >
+                  <span class="text">Visit Help Center </span>
+                  <i class="fa-solid fa-arrow-right ms-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form py-5">
+      <div class="container">
+        <!-- Row 1: Tiêu đề căn giữa -->
+        <div class="row justify-content-center">
+          <div class="col-12 mb-4">
+            <div
+              class="text-center d-flex flex-column align-items-center justify-content-center"
+            >
+              <p class="text-uppercase mb-1">Work With Us</p>
+              <h2 class="mb-1">Let’s Do Great Things Together</h2>
+              <p class="talk__desc text-secondary">
+                Have questions about our products? Get in touch with us! Fill
+                out the form below, and we’ll help you make the best choice.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: Ảnh và Form bằng nhau, nhỏ hơn -->
+        <div class="row d-flex align-items-center justify-content-center mt-4">
+          <div class="col-md-6 col-12 col-lg-5 d-flex justify-content-center">
+            <div class="w-100 mb-4 mb-md-0">
+              <img
+                src="./assets/images/Small Icons/samji.jpg"
+                alt="Contact Image"
+                class="img-fluid shadow rounded-3"
+              />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-12 col-lg-5">
+            <form
+              action="#"
+              class="h-100 d-flex flex-column justify-content-center"
+              id="contactForm"
+            >
+              <div class="form-group">
+                <label for="fullName">Full Name*</label>
+                <input
+                  type="text"
+                  class="form-control mt-2"
+                  id="fullName"
+                  name="text__name"
+                  required
+                />
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="email">Email*</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control mt-2"
+                  name="text__mail"
+                  required
+                />
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="phone">Phone Number*</label>
+                <input
+                  type="text"
+                  class="form-control mt-2"
+                  id="phone"
+                  name="text__phone"
+                  required
+                />
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="message">Message*</label>
+                <textarea
+                  name="text__message"
+                  id="message"
+                  class="form-control mt-2"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="form-group text-center mt-4">
+                <button class="btn btn-primary text-uppercase" id="btnSubmit">
+                  Let's Do Great Things Together
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="talk py-5 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <div
+              class="text-center d-flex flex-column align-items-center justify-content-center"
+            >
+              <p class="text-uppercase mb-1">Our Support Team</p>
+              <h2 class="mb-1">Talk ro real people</h2>
+              <p class="talk__desc text-secondary">
+                Amazing customer support is the #1 reason our creators cite for
+                choosing <strong class="text-primary">VaniizIT</strong>. Our
+                support team knows that the entrepreneurial journey comes with
+                challenges, and we're here to help you every step of the way.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <div
+            class="col-md-6 col-lg-3 col-sm-6 text-center col-sm-12 social__block"
+          >
+            <div class="social__box p-3 shadow rounded-3">
+              <a href="https://www.facebook.com/i.padygamy1210" target="_blank">
+                <figure>
+                  <img
+                    src="./assets/images/Small Icons/facebook.png"
+                    alt="Facebook"
+                    class="img-fluid"
+                  />
+                </figure>
+              </a>
+              <h3 class="mt-3">Facebook</h3>
+              <p>Kết nối với chúng tôi trên nền tảng Facebook!</p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 col-sm-6 text-center col-sm-12 social__block"
+          >
+            <div class="social__box p-3 shadow rounded-3">
+              <a href="https://www.instagram.com/viinhneee/" target="_blank">
+                <figure>
+                  <img
+                    src="./assets/images/Small Icons/icon-instagram164.164.png"
+                    alt="Instagram"
+                    class="img-fluid"
+                  />
+                </figure>
+              </a>
+              <h3 class="mt-3">Instagram</h3>
+              <p>Theo dõi chúng tôi trên nền tảng Instagram!</p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 col-sm-6 text-center col-sm-12 social__block"
+          >
+            <div class="social__box p-3 shadow rounded-3">
+              <a href="https://www.tiktok.com/@bugwhisperers" target="_blank">
+                <figure>
+                  <img
+                    src="./assets/images/Small Icons/tiktok-icon-free-png.webp"
+                    alt="Tiktok"
+                    class="img-fluid"
+                    style="width: 115px; object-fit: cover"
+                  />
+                </figure>
+              </a>
+              <h3 class="mt-3">TikTok</h3>
+              <p>Khám phá nội dung thú vị trên TikTok!</p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 col-sm-6 text-center col-sm-12 social__block"
+          >
+            <div class="social__box p-3 shadow rounded-3">
+              <a href="https://github.com/Vinhdev04" target="_blank">
+                <figure>
+                  <img
+                    src="./assets/images/Small Icons/github_PNG80.png"
+                    alt="GitHub"
+                    class="img-fluid"
+                    style="width: 115px; object-fit: cover"
+                  />
+                </figure>
+              </a>
+              <h3 class="mt-3">GitHub</h3>
+              <p>Theo dõi dự án của chúng tôi trên GitHub!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- *Footer* -->
+    <footer class="footer py-5 border-bottom bg-ccc">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <div class="fw-bolder mb-2 color-cddr">DỊCH VỤ KHÁCH HÀNG</div>
+            <ul class="list-unstyled d-flex flex-column gp-5">
+              <li class="list-unstyled">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Trung Tâm Trợ Giúp Vaniiz IT</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Vaniiz IT Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Vaniiz IT Mail</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Hướng Dẫn Mua Hàng/Đặt Hàng</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Hướng Dẫn Bán Hàng</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Đơn Hàng</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Trả Hàng/Hoàn Tiền</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Liên Hệ Vaniiz IT</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Chính Sách Bảo Hành</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3">
+            <div class="fw-bolder mb-2 color-cddr">VỀ CHÚNG TÔI</div>
+            <ul class="list-unstyled d-flex flex-column gp-5">
+              <li class="list-unstyled">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >VỀ Vaniiz IT</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Chính Sách Tuyển Dụng</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Điều Khoản Bảo Mật</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Chính Sách Bảo Mật</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Flash Sale</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Tiếp Thị Liên Kết</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                  >Liên Hệ Truyền Thông</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3">
+            <div class="fw-bolder mb-2 color-cddr">HỆ THỐNG THANH TOÁN</div>
+            <ul class="list-unstyled d-flex flex-wrap w-70">
+              <li class="list-unstyled bg-white item-size">
+                <a
+                  href="#!"
+                  class="text-decoration-nonetext-hover"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Cards/cod.png"
+                    alt="logo"
+                    class="img-fluid object-fit-cover"
+                  />
+                </a>
+              </li>
+              <li class="list-unstyled bg-white item-size">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Cards/credit.png"
+                    alt="logo"
+                    class="img-fluid object-fit-cover"
+                  />
+                </a>
+              </li>
+              <li class="list-unstyled bg-white item-size">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Cards/down.png"
+                    alt="logo"
+                    class="img-fluid object-fit-cover"
+                  />
+                </a>
+              </li>
+              <li class="list-unstyled bg-white item-size">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Cards/express.png"
+                    alt="logo"
+                    class="img-fluid object-fit-cover"
+                  />
+                </a>
+              </li>
+              <li class="list-unstyled bg-white item-size">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Cards/jcb.png"
+                    alt="logo"
+                    class="img-fluid object-fit-cover"
+                  />
+                </a>
+              </li>
+              <li class="list-unstyled bg-white item-size">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Cards/pay.png"
+                    alt="logo"
+                    class="img-fluid object-fit-cover"
+                  />
+                </a>
+              </li>
+              <li class="list-unstyled bg-white item-size">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Cards/spay.png"
+                    alt="logo"
+                    class="img-fluid object-fit-cover"
+                  />
+                </a>
+              </li>
+              <li class="list-unstyled bg-white item-size">
+                <a
+                  href="#!"
+                  class="text-decoration-none text-hover"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Cards/visa.png"
+                    alt="logo"
+                    class="img-fluid object-fit-cover"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3">
+            <div class="fw-bolder mb-2 color-cddr">KÊT NỐI CHÚNG TÔI</div>
+            <div class="d-flex gp-10">
+              <a
+                href="https://www.facebook.com/i.padygamy1210"
+                class="contact__qr text-decoration-none w-35 d-block"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/Cards/frame.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+              <ul
+                class="list-unstyled d-flex justify-content-center gp-5 flex-column"
+              >
+                <li>
+                  <a
+                    href="https://www.tiktok.com/@bugwhisperers?fbclid=IwY2xjawIe_HVleHRuA2FlbQIxMAABHWJ3QY7ui6Iac4EzviyrLY2GDylXIv36jSbfxFyqDh628H-lG2imXhB3cg_aem_i0IWMkWYyRB4ORWJyOKepg"
+                    class="text-decoration-none fs-18 text-hover"
+                    target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      width="18px"
+                      height="18px"
+                    >
+                      <path
+                        d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"
+                      />
+                    </svg>
+                    Tiktok</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/i.padygamy1210"
+                    class="text-decoration-none fs-18 text-hover"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      width="18px"
+                      height="18px"
+                    >
+                      <path
+                        fill="#0f8ceb"
+                        d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                      />
+                    </svg>
+                    Facebook
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/viinhneee/?fbclid=IwY2xjawIe_HNleHRuA2FlbQIxMAABHZGiCc9wjv4GfUHpuWX5LbeZtNVzja8JUqpm9cEwZe16-jd4agyfQihQ4Q_aem_O0JUqkYnFGe-eMCOcyyXMA"
+                    class="text-decoration-none fs-18 text-hover"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      width="18px"
+                      height="18px"
+                    >
+                      <path
+                        fill="#d53f73"
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      />
+                    </svg>
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        emailjs.init("C5QzUOmYFxqS06nXo"); // Thay YOUR_PUBLIC_KEY bằng Public Key từ EmailJS
+
+        document
+          .getElementById("btnSubmit")
+          .addEventListener("click", function (e) {
+            e.preventDefault(); // Ngăn form reload
+
+            let fullName = document.getElementById("fullName").value;
+            let email = document.getElementById("email").value;
+            let phone = document.getElementById("phone").value;
+            let message = document.getElementById("message").value;
+
+            // Kiểm tra dữ liệu có bị trống không
+            if (
+              fullName === "" ||
+              email === "" ||
+              phone === "" ||
+              message === ""
+            ) {
+              Swal.fire({
+                title: "Error!",
+                text: "Please fill in all fields.",
+                icon: "error",
+                draggable: true,
+              });
+              return;
+            }
+
+            // Gửi email qua EmailJS
+            let formData = {
+              name: fullName,
+              email: email,
+              phone: phone,
+              message: message,
+            };
+
+            emailjs.send("service_q25n7uq", "template_nc4abtv", formData).then(
+              function (response) {
+                Swal.fire({
+                  title: "Thank you!",
+                  text: "Your message has been sent successfully.",
+                  icon: "success",
+                  draggable: true,
+                });
+                document.getElementById("contactForm").reset(); // Xóa form sau khi gửi
+              },
+              function (error) {
+                Swal.fire({
+                  title: "Error!",
+                  text: "Something went wrong. Please try again.",
+                  icon: "error",
+                  draggable: true,
+                });
+              }
+            );
+          });
+      });
+    </script>
+
+    <!-- <script>
+      const btnSubmit = document.getElementById("btnSubmit");
+      const inputs = document.querySelectorAll("input");
+      const textArea = document.querySelector("textarea");
+      let isEmpty = false;
+
+      btnSubmit.addEventListener("click", (e) => {
+        inputs.forEach((item) => {
+          if (item.value.trim() === "" || textArea.value.trim() === "") {
+            isEmpty = true;
+          }
+
+          if (isEmpty) {
+            e.preventDefault();
+            Swal.fire({
+              title: "Error!",
+              text: "Please fill in all fields.",
+              icon: "error",
+              draggable: true,
+            });
+            return; // Dừng code tại đây nếu có lỗi
+          } else {
+            Swal.fire({
+              title: "Thank you!",
+              text: "Your message has been sent successfully.",
+              icon: "success",
+              draggable: true,
+            });
+
+            emailjs.init("C5QzUOmYFxqS06nXo");
+            let formData = {
+              name: document.getElementById("fullName").value,
+              email: document.getElementById("email").value,
+              phone: document.getElementById("phone").value,
+              message: document.getElementById("message").value,
+            };
+            emailjs.send("service_q25n7uq", "template_nc4abtv", formData).then(
+              function (response) {
+                Swal.fire({
+                  title: "Thank you!",
+                  text: "Your message has been sent successfully.",
+                  icon: "success",
+                  draggable: true,
+                });
+                document.getElementById("contactForm").reset(); // Xóa form sau khi gửi
+              },
+              function (error) {
+                Swal.fire({
+                  title: "Error!",
+                  text: "Something went wrong. Please try again.",
+                  icon: "error",
+                  draggable: true,
+                });
+              }
+            );
+          }
+        });
+      });
+    </script> -->
+    <script src="./assets/js/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- *Sweetalert* -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- *EmailJS* -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  </body>
+</html>
