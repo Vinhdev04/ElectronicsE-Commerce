@@ -395,6 +395,14 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 4px;
   }
+
+  .header__option {
+    display: none;
+  }
+
+  .header__discount {
+    display: none;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -403,6 +411,12 @@
     grid-template-columns: repeat(6, 1fr);
     gap: 4px;
   }
+  .header__discount {
+    display: none;
+  }
+  .header__option select {
+    display: none;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -410,6 +424,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4px;
+  }
+
+  .header__option {
+    display: none;
+  }
+
+  .header__discount {
+    display: none;
   }
 }
 /*=============== GOOGLE FONTS ===============*/
@@ -475,6 +497,9 @@ a {
   color: #2a83e9;
 }
 
+.home--active {
+  font-weight: bold;
+}
 .sort .sort-select p {
   cursor: pointer;
   transition: 0.2s ease;
