@@ -59,6 +59,9 @@
   font-size: 18px;
 }
 
+.mgr-10 {
+  margin-right: -10px;
+}
 .text-hover {
   color: #202020;
   transition: 0.3s ease;
