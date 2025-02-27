@@ -28,7 +28,7 @@
     <title>Electronics E-Commerce</title>
   </head>
   <body>
-    <!-- *Sub-Menu* -->
+       <!--  *Sub-Menu* -->
     <section class="header__sub border-bottom">
       <div class="container">
         <div class="row">
@@ -36,9 +36,14 @@
             class="header__top d-flex justify-content-between mt-3 d-none d-md-flex"
           >
             <div class="header__info d-flex align-items-center">
-              <p class="border-end px-2 me-2">+84 352 032 375</p>
+              <a
+                href="tel:+84352032375"
+                class="text-decoration-none d-flex align-items-center"
+              >
+                <p class="border-end px-2 me-2">+84 352 032 375</p>
+              </a>
 
-              <p>Store Location</p>
+              <p>Vaniiz IT</p>
             </div>
             <div class="header__discount">
               <p>Tell a friend about Group & get 20% discount</p>
@@ -66,12 +71,12 @@
       </div>
     </section>
 
-    <!-- *Navbar* -->
+    <!-- **Navbar -->
     <section class="header__bar py-4 bg-white">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand text-primary fw-bolder" href="index.html"
-            >Vaniiz IT</a
+            ><i class="ri-store-line"></i> TechStore</a
           >
           <button
             class="navbar-toggler"
@@ -88,77 +93,108 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active text-uppercase"
+                  class="nav-link active text-capitalize text-dark home--active"
                   aria-current="page"
                   href="index.html"
-                  >Home</a
+                  >Trang Chủ</a
                 >
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-uppercase"
-                  href="#category"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Electrics Devices
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Laptop</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Smart Phone </a>
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">PC</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-uppercase"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Blog
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Technical</a></li>
-                  <li><a class="dropdown-item" href="#">Another Blog</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Experiment</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-uppercase"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Pages
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Vaniiz IT</a></li>
-                  <li><a class="dropdown-item" href="#">Another Pages</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">Contact</a>
+                <a
+                  class="nav-link text-capitalize text-dark"
+                  href="./tablet.html"
+                  aria-current="page"
+                  target="_blank"
+                  >Tablet</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-capitalize text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Phụ Kiện
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-dark" href="#"
+                      >Bản tin công nghệ</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-dark" href="#"
+                      >Thông tin giảm giá</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-dark" href="#"
+                      >Trải nghiệm khách hàng</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark"
+                  href="./laptop.html"
+                  aria-current="page"
+                  target="_blank"
+                  >Laptop</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark"
+                  href="./smart.html"
+                  aria-current="page"
+                  target="_blank"
+                  >Smart Phone</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark"
+                  href="./watch.html"
+                  aria-current="page"
+                  target="_blank"
+                  >Smart Watch</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-capitalize text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Bản Tin
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-dark" href="#"
+                      >Bản tin công nghệ</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-dark" href="#"
+                      >Thông tin giảm giá</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-dark" href="#"
+                      >Trải nghiệm khách hàng</a
+                    >
+                  </li>
+                </ul>
               </li>
             </ul>
             <form class="d-flex" role="search">

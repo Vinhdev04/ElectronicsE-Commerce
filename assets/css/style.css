@@ -72,6 +72,18 @@
   color: red;
 }
 
+/* Hiển thị dropdown khi hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+  transition: 0.3s linear;
+}
+
+/* Chỉnh vị trí dropdown để không bị giật */
+.navbar-nav .dropdown-menu {
+  margin-top: 0;
+  transition: 0.3s linear;
+}
+
 .color-cddr {
   color: rgba(0, 0, 0, 0.87);
 }

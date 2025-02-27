@@ -11,7 +11,6 @@
       "Rating": 4.5,
       "Category": ["dien thoai", "laptop", "pc"],
       "Thumbnail": "https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-600x600.jpg",
-
       "Href": "https://example.com/product/12345",
       "Description": "This is a great smartphone with powerful features.",
       "Comments": [
@@ -26,7 +25,8 @@
           "comment": "Cho hỏi. Mua iphone 16pro max hôm 5/1/2025 nhưng nay cáp sạc bị hỏng. Thì có dc bảo hành kg ạ"
         }
       ],
-      "Discount": "10%"
+      "Discount": "10%",
+      "id": "1cc3"
     },
     {
       "ID": "02",
@@ -48,20 +48,89 @@
           "comment": "Super fast, smooth performance, love the camera quality."
         }
       ],
-      "Discount": "20%"
+      "Discount": "20%",
+      "id": "2052"
+    }
+  ],
+  "Devices": [
+    {
+      "ID": "03",
+      "Title": "Xạc dự phòng",
+      "Stock": 1000,
+      "Price": {
+        "original": 299000,
+        "sale": 269000
+      },
+      "Rating": 4.9,
+      "Category": ["phụ kiện"],
+      "Thumbnail": "//assets/images/accessories/charger-50w-thumb-600x600.jpg",
+      "Href": "https://example.com/accessory/12345",
+      "Description": "A powerful charger for your devices.",
+      "Comments": [
+        {
+          "user": "Bob",
+          "rating": 5,
+          "comment": "This charger is great for charging all my devices."
+        }
+      ],
+      "Discount": "15%"
+    },
+    {
+      "ID": "04",
+      "Title": "Tai nghe",
+      "Stock": 500,
+      "Price": {
+        "original": 990000,
+        "sale": 890000
+      },
+      "Rating": 4.7,
+      "Category": ["phụ kiện"],
+      "Thumbnail": "//assets/images/accessories/headphone-thumb-600x600.jpg",
+      "Href": "https://example.com/accessory/67890",
+      "Description": "High-quality headphones with noise cancellation.",
+      "Comments": [
+        {
+          "user": "Charlie",
+          "rating": 4,
+          "comment": "Good sound quality but a bit expensive."
+        }
+      ],
+      "Discount": "10%"
+    },
+    {
+      "ID": "05",
+      "Title": "Camera",
+      "Stock": 300,
+      "Price": {
+        "original": 5299000,
+        "sale": 4899000
+      },
+      "Rating": 4.8,
+      "Category": ["máy ảnh"],
+      "Thumbnail": "//assets/images/accessories/camera-thumb-600x600.jpg",
+      "Href": "https://example.com/accessory/54321",
+      "Description": "Professional camera with high-resolution lens.",
+      "Comments": [
+        {
+          "user": "David",
+          "rating": 5,
+          "comment": "Amazing picture quality! Worth every penny."
+        }
+      ],
+      "Discount": "12%"
     }
   ],
   "Category": {
     "Categories": [
-      "dien thoai",
-      "laptop",
-      "pc",
-      "may anh",
-      "tablet",
-      "phu kien"
+      "Điện Thoại",
+      "Laptop",
+      "PC",
+      "Máy ảnh",
+      "Tablet",
+      "Phụ Kiện"
     ]
   },
   "Total": {
-    "Total": 350
+    "Total": 5
   }
 }
