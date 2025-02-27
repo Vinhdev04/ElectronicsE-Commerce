@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html html lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Vaniiz It | Web Development" />
     <link
       rel="shortcut icon"
-      href="./assets/images/Favicon/icon-57.png"
+      href="/assets/images/Favicon/icon-57.png"
       type="image/x-icon"
     />
     <!--=============== FONTAWESOME ===============-->
@@ -33,194 +33,15 @@
     />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Electronics E-Commerce</title>
   </head>
   <body>
     <!--  *Sub-Menu* -->
-    <section class="header__sub border-bottom">
-      <div class="container">
-        <div class="row">
-          <div
-            class="header__top d-flex justify-content-between mt-3 d-none d-md-flex"
-          >
-            <div class="header__info d-flex align-items-center">
-              <a
-                href="tel:+84352032375"
-                class="text-decoration-none d-flex align-items-center"
-              >
-                <p class="border-end px-2 me-2">+84 352 032 375</p>
-              </a>
-
-              <p>Vaniiz IT</p>
-            </div>
-            <div class="header__discount">
-              <p>Tell a friend about Group & get 20% discount</p>
-            </div>
-            <div class="header__option">
-              <select name="" id="" class="me-3 border-0">
-                <option value="Vnd">VND</option>
-                <option value="Usd">USD</option>
-                <option value="Euro">EURO</option>
-              </select>
-
-              <a href="login.html" class="text-black text-decoration-none"
-                >Sign In</a
-              >
-              <span>/</span>
-              <a
-                href="signUp.html"
-                class="text-black text-decoration-none"
-                id="sign-Up"
-                >Sign Up</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="header__sub border-bottom" id="subNav"></section>
 
     <!-- **Navbar -->
-    <section class="header__bar py-4 bg-white">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand text-primary fw-bolder" href="index.html"
-            ><i class="ri-store-line"></i> TechStore</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-capitalize text-dark home--active"
-                  aria-current="page"
-                  href="index.html"
-                  >Trang Chủ</a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a
-                  class="nav-link text-capitalize text-dark"
-                  href="./tablet.html"
-                  aria-current="page"
-                  target="_blank"
-                  >Tablet</a
-                >
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-capitalize text-dark"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Phụ Kiện
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Bản tin công nghệ</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Thông tin giảm giá</a
-                    >
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Trải nghiệm khách hàng</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-capitalize text-dark"
-                  href="./laptop.html"
-                  aria-current="page"
-                  target="_blank"
-                  >Laptop</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-capitalize text-dark"
-                  href="./smart.html"
-                  aria-current="page"
-                  target="_blank"
-                  >Smart Phone</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-capitalize text-dark"
-                  href="./watch.html"
-                  aria-current="page"
-                  target="_blank"
-                  >Smart Watch</a
-                >
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-capitalize text-dark"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Bản Tin
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Bản tin công nghệ</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Thông tin giảm giá</a
-                    >
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Trải nghiệm khách hàng</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </section>
+    <section class="header__bar py-4 bg-white" id="navbar"></section>
 
     <!-- *Header* -->
     <header class="py-5 border-bottom bg-light">
@@ -240,7 +61,7 @@
           <div class="col-md-7">
             <div>
               <img
-                src="./assets/images/Devices/Image 1.png"
+                src="/assets/images/Devices/Image 1.png"
                 alt=""
                 class="img-fluid shadow"
               />
@@ -265,7 +86,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide01.jpg"
+                    src="/assets/images/slider/slide01.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -279,7 +100,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide02.jpg"
+                    src="/assets/images/slider/slide02.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -293,7 +114,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide03.jpg"
+                    src="/assets/images/slider/slide03.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -307,7 +128,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide04.jpg"
+                    src="/assets/images/slider/slide04.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -321,7 +142,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide05.jpg"
+                    src="/assets/images/slider/slide05.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -349,7 +170,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide07.jpg"
+                    src="/assets/images/slider/slide07.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -370,14 +191,14 @@
             <div class="ms-10">
               <div class="mb-50">
                 <img
-                  src="./assets/images/slider/slide08.jpg"
+                  src="/assets/images/slider/slide08.jpg"
                   alt=""
                   class="img-fluid"
                 />
               </div>
               <div>
                 <img
-                  src="./assets/images/slider/slide09.jpg"
+                  src="/assets/images/slider/slide09.jpg"
                   alt=""
                   class="img-fluid"
                 />
@@ -405,7 +226,7 @@
               <div class="item">
                 <div class="wrap__img mb-3">
                   <img
-                    src="./assets/images/Category/xacduphong.png"
+                    src="/assets/images/Category/xacduphong.png"
                     alt="Xạc dự phòng"
                     class="img-fluid w-75"
                   />
@@ -420,7 +241,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/camerangoaitroi.png"
+                    src="/assets/images/Category/camerangoaitroi.png"
                     alt="Camera"
                     class="img-fluid"
                   />
@@ -435,7 +256,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/capxac.png"
+                    src="/assets/images/Category/capxac.png"
                     alt="Cáp Xạc"
                     class="img-fluid"
                   />
@@ -450,7 +271,7 @@
               <div class="item">
                 <div class="wrap__img mb-4">
                   <img
-                    src="./assets/images/Category/flycam.png"
+                    src="/assets/images/Category/flycam.png"
                     alt="Fly Cam"
                     class="img-fluid"
                   />
@@ -465,7 +286,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/keyboard.png"
+                    src="/assets/images/Category/keyboard.png"
                     alt="Bàn Phím"
                     class="img-fluid"
                   />
@@ -480,7 +301,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/loa.png"
+                    src="/assets/images/Category/loa.png"
                     alt="Loa"
                     class="img-fluid"
                   />
@@ -495,7 +316,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/route.png"
+                    src="/assets/images/Category/route.png"
                     alt="Route"
                     class="img-fluid"
                   />
@@ -514,7 +335,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/headphone.png"
+                    src="/assets/images/Category/headphone.png"
                     alt="Tai Nghe"
                     class="img-fluid"
                   />
@@ -529,7 +350,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/pc.webp"
+                    src="/assets/images/Category/pc.webp"
                     alt="Laptop"
                     class="img-fluid w-75"
                   />
@@ -544,7 +365,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/smartphone.webp"
+                    src="/assets/images/Category/smartphone.webp"
                     alt="Smart Phone"
                     class="img-fluid w-75"
                   />
@@ -559,7 +380,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/mayanh.webp"
+                    src="/assets/images/Category/mayanh.webp"
                     alt="Máy ảnh"
                     class="img-fluid w-75"
                   />
@@ -574,7 +395,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/pc.webp"
+                    src="/assets/images/Category/pc.webp"
                     alt="PC"
                     class="img-fluid w-75"
                   />
@@ -589,7 +410,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/laptop.webp"
+                    src="/assets/images/Category/laptop.webp"
                     alt="Laptop"
                     class="img-fluid w-75"
                   />
@@ -604,7 +425,7 @@
               <div class="item">
                 <div class="wrap__img mb-3">
                   <img
-                    src="./assets/images/Category/cameratrongnha.png"
+                    src="/assets/images/Category/cameratrongnha.png"
                     alt="Camera trong nhà"
                     class="img-fluid w-75"
                   />
@@ -619,7 +440,7 @@
               <div class="item">
                 <div class="wrap__img mb-3">
                   <img
-                    src="./assets/images/Category/tainghe.png"
+                    src="/assets/images/Category/tainghe.png"
                     alt="Tai nghe bluetooth"
                     class="img-fluid w-75"
                   />
@@ -634,7 +455,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/watch.webp"
+                    src="/assets/images/Category/watch.webp"
                     alt="Đồng hồ"
                     class="img-fluid w-75"
                   />
@@ -666,7 +487,7 @@
               </button>
               <div class="img-container w-25">
                 <img
-                  src="./assets/images/Devices/Image 7.png"
+                  src="/assets/images/Devices/Image 7.png"
                   alt="Smart Camera"
                   class="img-fluid"
                 />
@@ -685,7 +506,7 @@
               </button>
               <div class="img-container w-25">
                 <img
-                  src="./assets/images/Devices/Image 8.png"
+                  src="/assets/images/Devices/Image 8.png"
                   alt="Entertainment & Game"
                   class="img-fluid"
                 />
@@ -696,20 +517,20 @@
       </div>
     </section>
 
-    <!-- *Products[Watch]* -->
+    <!-- *Product[Laptop]* -->
     <section class="lastest__product py-5" id="latest__product">
       <div class="container">
         <div class="row align-items-center">
           <div class="col">
-            <div class="d-flex justify-content-between align-items-center">
-              <h2 class="">Smart Watch</h2>
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h2 class="">Laptop</h2>
               <a
-                href="#smartWatch"
+                href="/pages/laptop.html"
                 class="d-md-flex d-none align-items-center me-2 text-decoration-none"
               >
                 View of all Products
                 <img
-                  src="./assets/images/Small Icons/Arrow Right.svg"
+                  src="/assets/images/Small Icons/Arrow Right.svg"
                   alt="Arrow Right"
                   class="text-bg-danger ms-2"
                 />
@@ -726,46 +547,14 @@
               <i class="fa-solid fa-filter me-1"></i>
               <p class="mb-0">Lọc</p>
             </button>
+
             <button
               class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchIphone"
+              data-filter-laptop="laptopAcer"
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/watch_ip.png"
-                alt=""
-                class="img-fluid object-fit-cover"
-              />
-            </button>
-            <button
-              class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchAmazit"
-            >
-              <i class="fa-solid fa-arrow-trend-up"></i>
-              <img
-                src="./assets/images/Cards/watch_amazit.png"
-                alt=""
-                class="img-fluid object-fit-cover"
-              />
-            </button>
-            <button
-              class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchBefit"
-            >
-              <i class="fa-solid fa-arrow-trend-up"></i>
-              <img
-                src="./assets/images/Cards/watch_befit.png"
-                alt=""
-                class="img-fluid object-fit-cover"
-              />
-            </button>
-            <button
-              class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchGarmin"
-            >
-              <i class="fa-solid fa-arrow-trend-up"></i>
-              <img
-                src="./assets/images/Cards/watch_garmin.png"
+                src="/assets/images/Cards/acer.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -773,33 +562,67 @@
 
             <button
               class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchSamsung"
+              data-filter-laptop="laptopAsus"
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/watch_samsung.png"
+                src="/assets/images/Cards/asus.png"
+                alt=""
+                class="img-fluid object-fit-cover"
+              />
+            </button>
+
+            <button
+              class="d-inline-flex align-items-center filter__branch"
+              data-filter-laptop="laptopMSI"
+            >
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <img
+                src="/assets/images/Cards/msi.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
             </button>
             <button
               class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchMukid"
+              data-filter-laptop="laptopDell"
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/watch_mukid.png"
+                src="/assets/images/Cards/dell.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
             </button>
             <button
               class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchMaster"
+              data-filter-laptop="laptopHP"
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/watch_master.png"
+                src="/assets/images/Cards/hp.png"
+                alt=""
+                class="img-fluid object-fit-cover"
+              />
+            </button>
+            <button
+              class="d-inline-flex align-items-center filter__branch"
+              data-filter-laptop="laptopLenovo"
+            >
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <img
+                src="/assets/images/Cards/lenovo.png"
+                alt=""
+                class="img-fluid object-fit-cover"
+              />
+            </button>
+            <button
+              class="d-inline-flex align-items-center filter__branch"
+              data-filter-laptop="laptopMacbook"
+            >
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <img
+                src="/assets/images/Cards/macBook.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -898,21 +721,25 @@
           </div>
         </div>
 
-        <!-- *Product[Watch]* -->
-        <div class="row" id="smartWatch">
+        <!-- *Product[Laptop]* -->
+        <div class="row" id="laptop">
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchIphone"
+              class="text-decoration-none product-laptop"
+              data-category="laptopHP"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Image 10.png"
-                    alt=" Đồng hồ thông minh Apple Watch Series 9 GPS"
+                    src="/assets/images/Devices/lap07.jpg"
+                    alt="
+       
+            HP 15 fd0234TU i5 1334U (9Q969PA)
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -976,26 +803,25 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  Đồng hồ thông minh Apple Watch Series 9 GPS
+                  HP 15 fd0234TU i5 1334U (9Q969PA)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    6.990.000 <sub>đ</sub>
+                    17.790.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    10.990.000 <sub>đ</sub>
+                    19.990.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
                   class="btn btn-danger mt-2"
-                  type="button"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="Tooltip on top"
+                  title="Buy Now"
                 >
                   Mua Ngay
                 </button>
@@ -1006,16 +832,20 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchIphone"
+              class="text-decoration-none product-laptop"
+              data-category="laptopHP"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch02.jpg"
-                    alt="Apple Watch Series 10 42mm viền nhôm dây thể thao"
+                    src="/assets/images/Devices/lap02.jpg"
+                    alt="
+           
+            HP 15 fc0085AU R5 7430U (A6VV8PA)
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -1079,21 +909,28 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  Đồng hồ thông minh BeFit WatchFit 46.7mm
+                  HP 15 fc0085AU R5 7430U (A6VV8PA)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    9.690.000 <sub>đ</sub>
+                    13.690.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    10.990.000 <sub>đ</sub>
+                    15.190.000<sub>đ</sub>
                   </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
@@ -1101,16 +938,20 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchIphone"
+              class="text-decoration-none product-laptop"
+              data-category="laptopAsus"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch02.1.jpg"
-                    alt="Apple Watch Series 10 42mm viền nhôm dây thể thao"
+                    src="/assets/images/Devices/lap09.jpg"
+                    alt="
+          
+            Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W)
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -1174,211 +1015,28 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  Đồng hồ thông minh BeFit WatchFit 46.7mm
+                  Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    9.690.000 <sub>đ</sub>
+                    12.990.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    10.990.000 <sub>đ</sub>
-                  </p>
-                </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
-            <a
-              href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchBefit"
-            >
-              <div
-                class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
-              >
-                <div class="card-img">
-                  <img
-                    src="./assets/images/Devices/watch03.jpg"
-                    alt="G-SHOCK 47 mm Nam GA-2000S-1ADR"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-rating d-flex justify-content-center mt-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
-                >
-                  G-SHOCK 47 mm Nam GA-2000S-1ADR
-                </div>
-                <div
-                  class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
-                >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    2.779.000 <sub>đ</sub>
-                  </p>
-                  <p
-                    class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
-                  >
-                    14.484.000 <sub>đ</sub>
-                  </p>
-                </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
-            <a
-              href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchSamsung"
-            >
-              <div
-                class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
-              >
-                <div class="card-img">
-                  <img
-                    src="./assets/images/Devices/watch04.jpg"
-                    alt="Đồng hồ thông minh Samsung Galaxy Watch Ultra LTE 47mm"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-rating d-flex justify-content-center mt-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
-                >
-                  Đồng hồ thông minh Samsung Galaxy Watch Ultra LTE 47mm
-                </div>
-                <div
-                  class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
-                >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
                     14.490.000<sub>đ</sub>
                   </p>
-                  <p
-                    class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
-                  >
-                    16.990.000 <sub>đ</sub>
-                  </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
@@ -1386,16 +1044,18 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchIphone"
+              class="text-decoration-none product-laptop"
+              data-category="laptopDell"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch05.jpg"
-                    alt="Đồng hồ định vị trẻ em MyKid 4G V2"
+                    src="/assets/images/Devices/lap04.jpg"
+                    alt="
+          Dell Inspiron 15 3520 i5 1235U (N5I5052W1)
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -1459,40 +1119,47 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  Đồng hồ định vị trẻ em MyKid 4G V2
+                  Dell Inspiron 15 3520 i5 1235U (N5I5052W1)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    1.240.000<sub>đ</sub>
+                    16.490.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    1.490.000 <sub>đ</sub>
+                    16.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
 
-          <!-- *Product[Watch]* -->
-
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watch_befit"
+              class="text-decoration-none product-laptop"
+              data-category="laptopLenovo"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch06.jpg"
-                    alt="CASIO 42 mm Nam MTP-1374D-1AVDF"
+                    src="/assets/images/Devices/lap05.jpg"
+                    alt="
+          Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN)
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -1556,21 +1223,28 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  CASIO 42 mm Nam MTP-1374D-1AVDF
+                  Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    1.795.000 <sub>đ</sub>
+                    17.690.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    2.394.000 <sub>đ</sub>
+                    19.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
@@ -1578,16 +1252,18 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchGarmin"
+              class="text-decoration-none product-laptop"
+              data-category="laptopAcer"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch07.jpg"
-                    alt="CASIO 42 mm Nam MTP-1375L-1AVDF"
+                    src="/assets/images/Devices/lap06.jpg"
+                    alt="
+       Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004)
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -1651,21 +1327,28 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  CASIO 42 mm Nam MTP-1375L-1AVDF
+                  Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    1.702.000 <sub>đ</sub>
+                    19.690.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    12.270.000 <sub>đ</sub>
+                    20.490.000<sub>đ</sub>
                   </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
@@ -1673,16 +1356,20 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchAmazit"
+              class="text-decoration-none product-laptop"
+              data-category="laptopHP"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch08.jpg"
-                    alt="ELIO Nắng Xuân 33 mm Nữ EL050-02"
+                    src="/assets/images/Devices/lap10.jpg"
+                    alt="
+       
+            HP 15 fd0303TU i3 1315U (A2NL4PA)
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -1746,21 +1433,28 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  ELIO Nắng Xuân 33 mm Nữ EL050-02
+                  HP 15 fd0303TU i3 1315U (A2NL4PA)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    339.000 <sub>đ</sub>
+                    11.890.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    1.290.000 <sub>đ</sub>
+                    13.490.000<sub>đ</sub>
                   </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
@@ -1768,16 +1462,22 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchAmazit"
+              class="text-decoration-none product-laptop"
+              data-category="laptopMacbook"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch09.jpg"
-                    alt="MVW Sport 41 mm Nam ML071-02"
+                    src="/assets/images/Devices/lap11.jpg"
+                    alt="
+       
+            
+            MacBook Air 13 inch M2 2022 8-core CPU
+        
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -1841,21 +1541,28 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  MVW Sport 41 mm Nam ML071-02
+                  MacBook Air 13 inch M2 2022 8-core CPU
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    679.000 <sub>đ</sub>
+                    21.490.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    1.990.000 <sub>đ</sub>
+                    24.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
@@ -1863,16 +1570,24 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchMaster"
+              class="text-decoration-none product-laptop"
+              data-category="laptopAcer"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch10.jpg"
-                    alt="FESTINA 30.5 mm Nữ F20382/3"
+                    src="/assets/images/Devices/lap12.jpg"
+                    alt="
+       
+            
+            
+            Acer Aspire 16 AI A16 71M 59L5 Ultra 5 125H (NX.J4YSV.001)
+                
+        
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -1936,21 +1651,28 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  FESTINA 30.5 mm Nữ F20382/3
+                  Acer Aspire 16 AI A16 71M 59L5 Ultra 5 125H (NX.J4YSV.001)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    2.579.000 <sub>đ</sub>
+                    18.690.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    3.580.000<sub>đ</sub>
+                    19.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
@@ -1958,16 +1680,26 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchMukid"
+              class="text-decoration-none product-laptop"
+              data-category="laptopLenovo"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch11.jpg"
-                    alt="EDIFICE CASIO 46.6 mm Nam EFV-C100D-1AVDF"
+                    src="/assets/images/Devices/lap13.jpg"
+                    alt="
+       
+            
+            
+         
+            Lenovo Ideapad Slim 5 14IAH8 i5 12450H (83BF003WVN)
+        
+                
+        
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -2031,39 +1763,256 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  EDIFICE CASIO 46.6 mm Nam EFV-C100D-1AVDF
+                  Lenovo Ideapad Slim 5 14IAH8 i5 12450H (83BF003WVN)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    2.479.000 <sub>đ</sub>
+                    17.190.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    3.610.000<sub>đ</sub>
+                    18.490.000<sub>đ</sub>
                   </p>
                 </div>
-                <button class="btn btn-danger mt-2">Mua Ngay</button>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
               </div>
             </a>
           </div>
 
-          <nav aria-label="Page navigation example ">
-            <ul class="pagination justify-content-center mt-3">
-              <li class="page-item disabled">
-                <a class="page-link"><</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">></a>
-              </li>
-            </ul>
-          </nav>
+          <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
+            <a
+              href="#!"
+              class="text-decoration-none product-laptop"
+              data-category="laptopHP"
+            >
+              <div
+                class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
+              >
+                <div class="card-img">
+                  <img
+                    src="/assets/images/Devices/lap15.jpg"
+                    alt="
+            
+            HP 245 G10 R5 7530U (A20TDPT)
+        
+        "
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-rating d-flex justify-content-center mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
+                >
+                  HP 245 G10 R5 7530U (A20TDPT)
+                </div>
+                <div
+                  class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
+                >
+                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                    12.890.000₫<sub>đ</sub>
+                  </p>
+                  <p
+                    class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
+                  >
+                    16.990.000<sub>đ</sub>
+                  </p>
+                </div>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-3">
+            <a
+              href="#!"
+              class="text-decoration-none product-laptop"
+              data-category="laptopDell"
+            >
+              <div
+                class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
+              >
+                <div class="card-img">
+                  <img
+                    src="/assets/images/Devices/lap14.jpg"
+                    alt="
+            Dell Inspiron 15 3520 i5 1235U (N3520-i5U165W11BLU-FP)
+        "
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-rating d-flex justify-content-center mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
+                >
+                  Dell Inspiron 15 3520 i5 1235U (N3520-i5U165W11BLU-FP)
+                </div>
+                <div
+                  class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
+                >
+                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                    16.490.000<sub>đ</sub>
+                  </p>
+                  <p
+                    class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
+                  >
+                    14.590.000<sub>đ</sub>
+                  </p>
+                </div>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
+              </div>
+            </a>
+          </div>
         </div>
+
+        <nav aria-label="Page navigation example ">
+          <ul class="pagination justify-content-center mt-3">
+            <li class="page-item disabled">
+              <a class="page-link"><</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">></a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </section>
 
@@ -2120,7 +2069,7 @@
                 <div class="carousel-item active">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera06.png"
+                      src="/assets/images/Devices/camera06.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -2131,7 +2080,7 @@
                 <div class="carousel-item">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera02.png"
+                      src="/assets/images/Devices/camera02.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -2142,7 +2091,7 @@
                 <div class="carousel-item">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera05.png"
+                      src="/assets/images/Devices/camera05.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -2153,7 +2102,7 @@
                 <div class="carousel-item">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera05.png"
+                      src="/assets/images/Devices/camera05.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -2164,7 +2113,7 @@
                 <div class="carousel-item">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera06.png"
+                      src="/assets/images/Devices/camera06.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -2215,7 +2164,7 @@
             >
               View of all Products
               <img
-                src="./assets/images/Small Icons/Arrow Right.svg"
+                src="/assets/images/Small Icons/Arrow Right.svg"
                 alt="Arrow Right"
                 class="text-bg-danger ms-2"
               />
@@ -2224,7 +2173,7 @@
           <div class="col-md-3 mb-3 mb-md-0">
             <div>
               <img
-                src="./assets/images/Banner/9f47d2a3-504e-45bf-8e7e-b4680039caa3.png"
+                src="/assets/images/Banner/9f47d2a3-504e-45bf-8e7e-b4680039caa3.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2233,7 +2182,7 @@
           <div class="col-md-3 mb-3 mb-md-0">
             <div>
               <img
-                src="./assets/images/Banner/ac7e0383-7962-422d-8001-e365fb0ddb51.png"
+                src="/assets/images/Banner/ac7e0383-7962-422d-8001-e365fb0ddb51.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2242,7 +2191,7 @@
           <div class="col-md-3 mb-3 mb-md-0">
             <div>
               <img
-                src="./assets/images/Banner/d14c2c5f0b25a60e0bdce67bbc80f0f2.png"
+                src="/assets/images/Banner/d14c2c5f0b25a60e0bdce67bbc80f0f2.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2251,7 +2200,7 @@
           <div class="col-md-3 mb-3 mb-md-0">
             <div>
               <img
-                src="./assets/images/Banner/d2712ef7d44563ef70d1852ca8e6f8f4.png"
+                src="/assets/images/Banner/d2712ef7d44563ef70d1852ca8e6f8f4.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2261,20 +2210,361 @@
       </div>
     </section>
 
-    <!-- *Products[Watch]* -->
-    <section class="lastest__product py-5" id="latest__product">
+    <!-- *Blog* -->
+    <section class="blog py-5 border-bottom bg-primary-subtle">
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row">
           <div class="col">
-            <div class="d-flex justify-content-between align-items-center">
-              <h2 class="">Smart Watch</h2>
+            <div
+              class="d-flex justify-content-between align-items-center mb-3 align-items-center"
+            >
+              <h2 class="">Latest Newsletter</h2>
               <a
-                href="#smartWatch"
+                href="/pages/new.html"
                 class="d-md-flex d-none align-items-center me-2 text-decoration-none"
               >
                 View of all Products
                 <img
-                  src="./assets/images/Small Icons/Arrow Right.svg"
+                  src="/assets/images/Small Icons/Arrow Right.svg"
+                  alt="Arrow Right"
+                  class="text-bg-danger ms-2"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper card-swiper">
+          <div class="swiper-wrapper">
+            <!-- *Card 01*  -->
+            <a
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+              href="https://www.cnet.com/tech/services-and-software/what-is-deepseek-everything-to-know-about-the-new-chinese-ai-tool/"
+              target="_blank"
+            >
+              <img
+                src="/assets/images/Blog/deepseek.jpg"
+                class="img-fluid card-img rounded-0"
+                alt="Chat with Deepseek AI"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chat with Deepseek AI</h5>
+                <p class="card-text">
+                  DeepSeek là công cụ AI mới đang gây sốt trên thị trường khi
+                  được đánh giá là đối thủ cạnh tranh đầy tiềm năng với ChatGPT
+                  và Gemini. Vậy DeepSeek là gì? Cách sử dụng công cụ AI này thế
+                  nào? Tìm hiểu ngay trong bài viết sau!
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 02*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc/vi-sao-oppo-pad-3-la-chiec-tablet-tam-trung-lam-viec-uu-viet-nhat-nam-2025-1574275"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/oppo-pad-3-2.jpg"
+                class="img-fluid card-img rounded-0"
+                alt="Vì sao OPPO Pad 3 là chiếc tablet tầm trung làm việc ưu việt
+                  nhất năm 2025?"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Vì sao OPPO Pad 3 là chiếc tablet tầm trung làm việc ưu việt
+                  nhất năm 2025?
+                </h5>
+                <p class="card-text">
+                  Thị trường máy tính bảng tầm trung năm 2025 đang trở nên sôi
+                  động hơn bao giờ hết với sự xuất hiện của hàng loạt sản phẩm
+                  mới. Nổi bật trong số đó là OPPO Pad 3, chiếc tablet được dự
+                  đoán sẽ khuấy đảo phân khúc này nhờ những ưu điểm vượt trội,
+                  đặc biệt là khả năng hỗ trợ công việc tuyệt vời.
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 03*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc/laptop-acer-core-i5-chip-h-cau-hinh-manh-me-voi-ram-16-gb-1574998"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/Untitled-112341235.jpg"
+                class="img-fluid card-img rounded-0"
+                alt="Laptop Acer Core i5 chip H, cấu hình mạnh mẽ với ram 16 GB giá chỉ từ 13.99 triệu, trả chậm 0% lãi suất"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Laptop Acer Core i5 chip H, cấu hình mạnh mẽ với ram 16 GB giá
+                  chỉ từ 13.99 triệu, trả chậm 0% lãi suất
+                </h5>
+                <p class="card-text">
+                  Laptop Acer trang bị chip Intel Core i5 dòng H, hiệu năng mạnh
+                  mẽ đáp ứng tốt nhu cầu học tập, làm việc và giải trí. Đi kèm
+                  RAM 16 GB, máy xử lý đa nhiệm mượt mà, giúp bạn làm việc hiệu
+                  quả hơn.
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 04*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc#1"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/12341234123512351251.jpg"
+                class="img-fluid card-img rounded-0"
+                alt="  iPhone 14 Plus giá chỉ từ 18.99 triệu, ưu đãi trả chậm 0% lãi
+                  suất, trả trước từ 30%"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  iPhone 14 Plus giá chỉ từ 18.99 triệu, ưu đãi trả chậm 0% lãi
+                  suất, trả trước từ 30%
+                </h5>
+                <p class="card-text">
+                  iPhone 14 Plus vẫn là lựa chọn hấp dẫn nhờ màn hình lớn 6.7
+                  inch Super Retina XDR, hiển thị sắc nét, pin bền bỉ dùng suốt
+                  ngày dài. Đặc biệt máy vẫn được cập nhật iOS lâu dài, đảm bảo
+                  trải nghiệm ổn định. Giá chỉ từ 18.99 triệu, hỗ trợ trả chậm
+                  0% lãi suất, trả trước từ 30%, mua ngay tại Thế Giới Di Động
+                  để nhận ưu đãi tốt nhất!
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 05*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc/tren-tay-tp-link-uh7020c-va-uh6120c-1575039"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/toc-do-doc-the-microsd-sd-hub-tplink.jpeg"
+                class="img-fluid card-img rounded-0"
+                alt="  Trên tay TP-Link UH7020C và UH6120C: Bộ đôi Hub USB-C đa năng, nhiều cổng kết nối khác nhau"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Trên tay TP-Link UH7020C và UH6120C: Bộ đôi Hub USB-C đa năng,
+                  nhiều cổng kết nối khác nhau
+                </h5>
+                <p class="card-text">
+                  Bộ đôi TP-Link UH7020C và UH6120C đều được thiết kế theo kiểu
+                  dáng hình chữ nhật với phần vỏ ngoài được hoàn thiện từ nhôm.
+                  Nhờ kiểu thiết kế này mà sản phẩm tạo ra cảm giác vừa sang
+                  trọng vừa cứng cáp.
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 06*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc/garmin-tactix-8-ra-mat-tich-hop-den-led-ho-tro-theo-doi-dien-tam-do-1575015"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/thumb Garmin Tactix 8.jpg"
+                class="img-fluid card-img rounded-0"
+                alt="  Tại sao các cặp đôi nên mua đồng hồ cặp tặng nhau nhân dịp Valentine này?"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Tại sao các cặp đôi nên mua đồng hồ cặp tặng nhau nhân dịp
+                  Valentine này?
+                </h5>
+                <p class="card-text">
+                  Mới đây, Garmin đã chính thức trình làng Garmin Tactix 8, mẫu
+                  smartwatch được phát triển dựa trên Garmin Fenix 8 nhưng được
+                  tích hợp thêm loạt tính năng bổ sung. Mẫu smartwatch này còn
+                  được tích hợp thêm đèn LED, khả năng theo dõi sức khỏe được
+                  cải tiến cùng thiết kế đầy mạnh mẽ và cứng cáp.
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 07*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc/tai-sao-cac-cap-doi-nen-mua-dong-ho-cap-tang-nhau-nhan-dip-valentine-nay-1575009"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/dong-ho-cap-23.jpg"
+                class="img-fluid card-img rounded-0"
+                alt=" Garmin Tactix 8 ra mắt: Tích hợp đèn
+              LED, hỗ trợ theo dõi điện tâm đồ ECG và thiết kế cực kỳ hầm hố"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Garmin Tactix 8 ra mắt: Tích hợp đèn LED, hỗ trợ theo dõi điện
+                  tâm đồ ECG và thiết kế cực kỳ hầm hố
+                </h5>
+                <p class="card-text">
+                  Valentine – ngày lễ tình nhân – là dịp để các cặp đôi bày tỏ
+                  tình cảm và trao nhau những món quà ý nghĩa. Bên cạnh những
+                  lựa chọn quen thuộc như hoa hồng, socola, một món quà độc đáo
+                  và trường tồn với thời gian đang ngày càng được ưa chuộng:
+                  đồng hồ cặp. Bạn đang tìm kiếm một món quà Valentine vượt thời
+                  gian, thể hiện sự gắn kết và mang ý nghĩa sâu sắc? Đồng hồ cặp
+                  có thể là câu trả lời hoàn hảo.
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 08*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc/tao-thiep-valentine-1509621"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/cnava-09.jpg"
+                class="img-fluid card-img rounded-0"
+                alt="   Hướng dẫn cách tạo thiệp Valentine online siêu đẹp để dành tặng cho nửa kia"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hướng dẫn cách tạo thiệp Valentine online siêu đẹp để dành
+                  tặng cho nửa kia
+                </h5>
+                <p class="card-text">
+                  Không phải ai cũng có một ngày Valentine trọn vẹn bên người
+                  mình yêu. Với những cặp đôi yêu xa hay bận rộn vì công việc,
+                  việc không thể trao tận tay món quà hay tấm thiệp có thể khiến
+                  ngày này trở nên kém vui. Nhưng đừng lo, bạn vẫn có thể gửi
+                  gắm tình cảm theo cách đặc biệt hơn! Hãy cùng mình khám phá
+                  cách tạo thiệp Valentine đơn giản ngay trên điện thoại, giúp
+                  rút ngắn khoảng cách và làm ấm lòng nửa kia nhé!
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 09*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc/nhung-uu-diem-vuot-troi-cua-man-hinh-msi-so-voi-cac-doi-thu-khac-1574976"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/man-hinh-gaming-2.jpg"
+                class="img-fluid card-img rounded-0"
+                alt=" Những ưu điểm vượt trội
+              của màn hình MSI so với các đối thủ khác"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Những ưu điểm vượt trội của màn hình MSI so với các đối thủ
+                  khác
+                </h5>
+                <p class="card-text">
+                  Việc lựa chọn một chiếc màn hình máy tính phù hợp không chỉ
+                  đơn thuần là tìm kiếm một thiết bị hiển thị hình ảnh. Trong số
+                  các thương hiệu màn hình nổi tiếng, MSI chính là một lựa chọn
+                  hàng đầu, đặc biệt là đối với game thủ. Vậy điều gì làm nên sự
+                  khác biệt của màn hình máy tính MSI so với các đối thủ? Hãy
+                  cùng khám phá những ưu điểm vượt trội của màn hình MSI.
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+
+            <!-- *Card 10*  -->
+            <a
+              href="https://www.thegioididong.com/tin-tuc/qualcomm-ra-mat-snapdragon-6-gen-4-hieu-suat-cpu-va-gpu-nhanh-hon-1574991"
+              target="_blank"
+              class="card card-trans swiper-slide text-decoration-none"
+              style="width: 18rem"
+            >
+              <img
+                src="/assets/images/Blog/thumb Snapdragon 6 Gen 4.jpg"
+                class="img-fluid card-img rounded-0"
+                alt=" Qualcomm ra mắt
+              Snapdragon 6 Gen 4: Hiệu suất CPU và GPU nhanh hơn, tích hợp AI"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Qualcomm ra mắt Snapdragon 6 Gen 4: Hiệu suất CPU và GPU nhanh
+                  hơn, tích hợp AI
+                </h5>
+                <p class="card-text">
+                  Qualcomm gần đây đã chính thức trình làng chip Snapdragon 6
+                  Gen 4 dành cho các thiết bị smartphone tầm trung. Được biết,
+                  vi xử lý này có tốc độ xử lý CPU nhanh hơn 11% và tốc độ xử lý
+                  GPU lên đến 29% so với thế hệ trước.
+                </p>
+                <button class="btn-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </a>
+          </div>
+          <!-- Add Swiper Pagination, Navigation buttons, etc. -->
+          <div class="swiper-pagination"></div>
+          <div
+            class="swiper-button-prev swiper-slide-button d-none d-md-block"
+          ></div>
+          <div
+            class="swiper-button-next swiper-slide-button d-none d-md-block"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *Product[Laptop]* -->
+    <section class="lastest__product py-5" id="latest__product">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h2 class="">Laptop</h2>
+              <a
+                href="/pages/laptop.html"
+                class="d-md-flex d-none align-items-center me-2 text-decoration-none"
+              >
+                View of all Products
+                <img
+                  src="/assets/images/Small Icons/Arrow Right.svg"
                   alt="Arrow Right"
                   class="text-bg-danger ms-2"
                 />
@@ -2291,46 +2581,14 @@
               <i class="fa-solid fa-filter me-1"></i>
               <p class="mb-0">Lọc</p>
             </button>
+
             <button
               class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchIphone"
+              data-filter-laptop="laptopAcer"
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/watch_ip.png"
-                alt=""
-                class="img-fluid object-fit-cover"
-              />
-            </button>
-            <button
-              class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchAmazit"
-            >
-              <i class="fa-solid fa-arrow-trend-up"></i>
-              <img
-                src="./assets/images/Cards/watch_amazit.png"
-                alt=""
-                class="img-fluid object-fit-cover"
-              />
-            </button>
-            <button
-              class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchBefit"
-            >
-              <i class="fa-solid fa-arrow-trend-up"></i>
-              <img
-                src="./assets/images/Cards/watch_befit.png"
-                alt=""
-                class="img-fluid object-fit-cover"
-              />
-            </button>
-            <button
-              class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchGarmin"
-            >
-              <i class="fa-solid fa-arrow-trend-up"></i>
-              <img
-                src="./assets/images/Cards/watch_garmin.png"
+                src="/assets/images/Cards/acer.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2338,33 +2596,67 @@
 
             <button
               class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchSamsung"
+              data-filter-laptop="laptopAsus"
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/watch_samsung.png"
+                src="/assets/images/Cards/asus.png"
+                alt=""
+                class="img-fluid object-fit-cover"
+              />
+            </button>
+
+            <button
+              class="d-inline-flex align-items-center filter__branch"
+              data-filter-laptop="laptopMSI"
+            >
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <img
+                src="/assets/images/Cards/msi.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
             </button>
             <button
               class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchMukid"
+              data-filter-laptop="laptopDell"
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/watch_mukid.png"
+                src="/assets/images/Cards/dell.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
             </button>
             <button
               class="d-inline-flex align-items-center filter__branch"
-              data-filter-watch="watchMaster"
+              data-filter-laptop="laptopHP"
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/watch_master.png"
+                src="/assets/images/Cards/hp.png"
+                alt=""
+                class="img-fluid object-fit-cover"
+              />
+            </button>
+            <button
+              class="d-inline-flex align-items-center filter__branch"
+              data-filter-laptop="laptopLenovo"
+            >
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <img
+                src="/assets/images/Cards/lenovo.png"
+                alt=""
+                class="img-fluid object-fit-cover"
+              />
+            </button>
+            <button
+              class="d-inline-flex align-items-center filter__branch"
+              data-filter-laptop="laptopMacbook"
+            >
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <img
+                src="/assets/images/Cards/macBook.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2463,21 +2755,25 @@
           </div>
         </div>
 
-        <!-- *Product[Watch]* -->
-        <div class="row" id="smartWatch">
+        <!-- *Product[Laptop]* -->
+        <div class="row" id="laptop">
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchIphone"
+              class="text-decoration-none product-laptop"
+              data-category="laptopHP"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Image 10.png"
-                    alt=" Đồng hồ thông minh Apple Watch Series 9 GPS"
+                    src="/assets/images/Devices/lap07.jpg"
+                    alt="
+       
+            HP 15 fd0234TU i5 1334U (9Q969PA)
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -2541,18 +2837,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  Đồng hồ thông minh Apple Watch Series 9 GPS
+                  HP 15 fd0234TU i5 1334U (9Q969PA)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    6.990.000 <sub>đ</sub>
+                    17.790.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    10.990.000 <sub>đ</sub>
+                    19.990.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -2570,16 +2866,20 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchIphone"
+              class="text-decoration-none product-laptop"
+              data-category="laptopHP"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch02.jpg"
-                    alt="Apple Watch Series 10 42mm viền nhôm dây thể thao"
+                    src="/assets/images/Devices/lap02.jpg"
+                    alt="
+           
+            HP 15 fc0085AU R5 7430U (A6VV8PA)
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -2643,18 +2943,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  Đồng hồ thông minh BeFit WatchFit 46.7mm
+                  HP 15 fc0085AU R5 7430U (A6VV8PA)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    9.690.000 <sub>đ</sub>
+                    13.690.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    10.990.000 <sub>đ</sub>
+                    15.190.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -2672,16 +2972,20 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchIphone"
+              class="text-decoration-none product-laptop"
+              data-category="laptopAsus"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch02.1.jpg"
-                    alt="Apple Watch Series 10 42mm viền nhôm dây thể thao"
+                    src="/assets/images/Devices/lap09.jpg"
+                    alt="
+          
+            Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W)
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -2745,223 +3049,19 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  Đồng hồ thông minh BeFit WatchFit 46.7mm
+                  Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    9.690.000 <sub>đ</sub>
+                    12.990.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    10.990.000 <sub>đ</sub>
-                  </p>
-                </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
-            <a
-              href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchBefit"
-            >
-              <div
-                class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
-              >
-                <div class="card-img">
-                  <img
-                    src="./assets/images/Devices/watch03.jpg"
-                    alt="G-SHOCK 47 mm Nam GA-2000S-1ADR"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-rating d-flex justify-content-center mt-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
-                >
-                  G-SHOCK 47 mm Nam GA-2000S-1ADR
-                </div>
-                <div
-                  class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
-                >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    2.779.000 <sub>đ</sub>
-                  </p>
-                  <p
-                    class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
-                  >
-                    14.484.000 <sub>đ</sub>
-                  </p>
-                </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
-            <a
-              href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchSamsung"
-            >
-              <div
-                class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
-              >
-                <div class="card-img">
-                  <img
-                    src="./assets/images/Devices/watch04.jpg"
-                    alt="Đồng hồ thông minh Samsung Galaxy Watch Ultra LTE 47mm"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="card-rating d-flex justify-content-center mt-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 576 512"
-                    width="18px"
-                    height="18px"
-                  >
-                    <path
-                      fill="#FFD43B"
-                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
-                >
-                  Đồng hồ thông minh Samsung Galaxy Watch Ultra LTE 47mm
-                </div>
-                <div
-                  class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
-                >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
                     14.490.000<sub>đ</sub>
                   </p>
-                  <p
-                    class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
-                  >
-                    16.990.000 <sub>đ</sub>
-                  </p>
                 </div>
                 <button
                   class="btn btn-danger mt-2"
@@ -2978,16 +3078,18 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchIphone"
+              class="text-decoration-none product-laptop"
+              data-category="laptopDell"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch05.jpg"
-                    alt="Đồng hồ định vị trẻ em MyKid 4G V2"
+                    src="/assets/images/Devices/lap04.jpg"
+                    alt="
+          Dell Inspiron 15 3520 i5 1235U (N5I5052W1)
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -3051,18 +3153,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  Đồng hồ định vị trẻ em MyKid 4G V2
+                  Dell Inspiron 15 3520 i5 1235U (N5I5052W1)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    1.240.000<sub>đ</sub>
+                    16.490.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    1.490.000 <sub>đ</sub>
+                    16.990.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -3077,21 +3179,21 @@
             </a>
           </div>
 
-          <!-- *Product[Watch]* -->
-
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watch_befit"
+              class="text-decoration-none product-laptop"
+              data-category="laptopLenovo"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch06.jpg"
-                    alt="CASIO 42 mm Nam MTP-1374D-1AVDF"
+                    src="/assets/images/Devices/lap05.jpg"
+                    alt="
+          Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN)
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -3155,18 +3257,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  CASIO 42 mm Nam MTP-1374D-1AVDF
+                  Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    1.795.000 <sub>đ</sub>
+                    17.690.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    2.394.000 <sub>đ</sub>
+                    19.990.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -3184,16 +3286,18 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchGarmin"
+              class="text-decoration-none product-laptop"
+              data-category="laptopAcer"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch07.jpg"
-                    alt="CASIO 42 mm Nam MTP-1375L-1AVDF"
+                    src="/assets/images/Devices/lap06.jpg"
+                    alt="
+       Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004)
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -3257,18 +3361,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  CASIO 42 mm Nam MTP-1375L-1AVDF
+                  Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    1.702.000 <sub>đ</sub>
+                    19.690.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    12.270.000 <sub>đ</sub>
+                    20.490.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -3286,16 +3390,20 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchAmazit"
+              class="text-decoration-none product-laptop"
+              data-category="laptopHP"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch08.jpg"
-                    alt="ELIO Nắng Xuân 33 mm Nữ EL050-02"
+                    src="/assets/images/Devices/lap10.jpg"
+                    alt="
+       
+            HP 15 fd0303TU i3 1315U (A2NL4PA)
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -3359,18 +3467,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  ELIO Nắng Xuân 33 mm Nữ EL050-02
+                  HP 15 fd0303TU i3 1315U (A2NL4PA)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    339.000 <sub>đ</sub>
+                    11.890.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    1.290.000 <sub>đ</sub>
+                    13.490.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -3388,16 +3496,22 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchAmazit"
+              class="text-decoration-none product-laptop"
+              data-category="laptopMacbook"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch09.jpg"
-                    alt="MVW Sport 41 mm Nam ML071-02"
+                    src="/assets/images/Devices/lap11.jpg"
+                    alt="
+       
+            
+            MacBook Air 13 inch M2 2022 8-core CPU
+        
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -3461,18 +3575,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  MVW Sport 41 mm Nam ML071-02
+                  MacBook Air 13 inch M2 2022 8-core CPU
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    679.000 <sub>đ</sub>
+                    21.490.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    1.990.000 <sub>đ</sub>
+                    24.990.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -3490,16 +3604,24 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchMaster"
+              class="text-decoration-none product-laptop"
+              data-category="laptopAcer"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch10.jpg"
-                    alt="FESTINA 30.5 mm Nữ F20382/3"
+                    src="/assets/images/Devices/lap12.jpg"
+                    alt="
+       
+            
+            
+            Acer Aspire 16 AI A16 71M 59L5 Ultra 5 125H (NX.J4YSV.001)
+                
+        
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -3563,18 +3685,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  FESTINA 30.5 mm Nữ F20382/3
+                  Acer Aspire 16 AI A16 71M 59L5 Ultra 5 125H (NX.J4YSV.001)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    2.579.000 <sub>đ</sub>
+                    18.690.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    3.580.000<sub>đ</sub>
+                    19.990.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -3592,16 +3714,26 @@
           <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
             <a
               href="#!"
-              class="text-decoration-none product-watch"
-              data-category="watchMukid"
+              class="text-decoration-none product-laptop"
+              data-category="laptopLenovo"
             >
               <div
                 class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/watch11.jpg"
-                    alt="EDIFICE CASIO 46.6 mm Nam EFV-C100D-1AVDF"
+                    src="/assets/images/Devices/lap13.jpg"
+                    alt="
+       
+            
+            
+         
+            Lenovo Ideapad Slim 5 14IAH8 i5 12450H (83BF003WVN)
+        
+                
+        
+        
+        "
                     class="img-fluid"
                   />
                 </div>
@@ -3665,18 +3797,18 @@
                 <div
                   class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
                 >
-                  EDIFICE CASIO 46.6 mm Nam EFV-C100D-1AVDF
+                  Lenovo Ideapad Slim 5 14IAH8 i5 12450H (83BF003WVN)
                 </div>
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
                   <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
-                    2.479.000 <sub>đ</sub>
+                    17.190.000<sub>đ</sub>
                   </p>
                   <p
                     class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
                   >
-                    3.610.000<sub>đ</sub>
+                    18.490.000<sub>đ</sub>
                   </p>
                 </div>
                 <button
@@ -3691,808 +3823,245 @@
             </a>
           </div>
 
-          <nav aria-label="Page navigation example ">
-            <ul class="pagination justify-content-center mt-3">
-              <li class="page-item disabled">
-                <a class="page-link"><</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">></a>
-              </li>
-            </ul>
-          </nav>
+          <div class="col-md-4 col-sm-12 col-lg-3 col-xl-3">
+            <a
+              href="#!"
+              class="text-decoration-none product-laptop"
+              data-category="laptopHP"
+            >
+              <div
+                class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
+              >
+                <div class="card-img">
+                  <img
+                    src="/assets/images/Devices/lap15.jpg"
+                    alt="
+            
+            HP 245 G10 R5 7530U (A20TDPT)
+        
+        "
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-rating d-flex justify-content-center mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
+                >
+                  HP 245 G10 R5 7530U (A20TDPT)
+                </div>
+                <div
+                  class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
+                >
+                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                    12.890.000₫<sub>đ</sub>
+                  </p>
+                  <p
+                    class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
+                  >
+                    16.990.000<sub>đ</sub>
+                  </p>
+                </div>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-lg-4 col-xl-3">
+            <a
+              href="#!"
+              class="text-decoration-none product-laptop"
+              data-category="laptopDell"
+            >
+              <div
+                class="card p-4 py-3 rounded-3 shadow bg-white border-0 mt-3"
+              >
+                <div class="card-img">
+                  <img
+                    src="/assets/images/Devices/lap14.jpg"
+                    alt="
+            Dell Inspiron 15 3520 i5 1235U (N3520-i5U165W11BLU-FP)
+        "
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="card-rating d-flex justify-content-center mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    width="18px"
+                    height="18px"
+                  >
+                    <path
+                      fill="#FFD43B"
+                      d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="card-title card-title--limit text-center text-capitalize mt-2 mb-0 fw-bolder text-dark"
+                >
+                  Dell Inspiron 15 3520 i5 1235U (N3520-i5U165W11BLU-FP)
+                </div>
+                <div
+                  class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
+                >
+                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                    16.490.000<sub>đ</sub>
+                  </p>
+                  <p
+                    class="fs-6 text-decoration-line-through text-dark-emphasis mt-0 mb-0 opacity-50 d-flex"
+                  >
+                    14.590.000<sub>đ</sub>
+                  </p>
+                </div>
+                <button
+                  class="btn btn-danger mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Buy Now"
+                >
+                  Mua Ngay
+                </button>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <!-- *Blog* -->
-    <section class="blog py-5 border-bottom bg-primary-subtle">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div
-              class="d-flex justify-content-between align-items-center mb-3 align-items-center"
-            >
-              <h2 class="">Latest Newsletter</h2>
-              <a
-                href="#!"
-                class="d-md-flex d-none align-items-center me-2 text-decoration-none"
-              >
-                View of all Products
-                <img
-                  src="./assets/images/Small Icons/Arrow Right.svg"
-                  alt="Arrow Right"
-                  class="text-bg-danger ms-2"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper card-swiper">
-          <div class="swiper-wrapper">
-            <!-- *Card 01*  -->
-            <a
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-              href="https://www.cnet.com/tech/services-and-software/what-is-deepseek-everything-to-know-about-the-new-chinese-ai-tool/"
-              target="_blank"
-            >
-              <img
-                src="./assets/images/Blog/deepseek.jpg"
-                class="img-fluid card-img rounded-0"
-                alt="Chat with Deepseek AI"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Chat with Deepseek AI</h5>
-                <p class="card-text">
-                  DeepSeek là công cụ AI mới đang gây sốt trên thị trường khi
-                  được đánh giá là đối thủ cạnh tranh đầy tiềm năng với ChatGPT
-                  và Gemini. Vậy DeepSeek là gì? Cách sử dụng công cụ AI này thế
-                  nào? Tìm hiểu ngay trong bài viết sau!
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 02*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc/vi-sao-oppo-pad-3-la-chiec-tablet-tam-trung-lam-viec-uu-viet-nhat-nam-2025-1574275"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/oppo-pad-3-2.jpg"
-                class="img-fluid card-img rounded-0"
-                alt="Vì sao OPPO Pad 3 là chiếc tablet tầm trung làm việc ưu việt
-                  nhất năm 2025?"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Vì sao OPPO Pad 3 là chiếc tablet tầm trung làm việc ưu việt
-                  nhất năm 2025?
-                </h5>
-                <p class="card-text">
-                  Thị trường máy tính bảng tầm trung năm 2025 đang trở nên sôi
-                  động hơn bao giờ hết với sự xuất hiện của hàng loạt sản phẩm
-                  mới. Nổi bật trong số đó là OPPO Pad 3, chiếc tablet được dự
-                  đoán sẽ khuấy đảo phân khúc này nhờ những ưu điểm vượt trội,
-                  đặc biệt là khả năng hỗ trợ công việc tuyệt vời.
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 03*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc/laptop-acer-core-i5-chip-h-cau-hinh-manh-me-voi-ram-16-gb-1574998"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/Untitled-112341235.jpg"
-                class="img-fluid card-img rounded-0"
-                alt="Laptop Acer Core i5 chip H, cấu hình mạnh mẽ với ram 16 GB giá chỉ từ 13.99 triệu, trả chậm 0% lãi suất"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Laptop Acer Core i5 chip H, cấu hình mạnh mẽ với ram 16 GB giá
-                  chỉ từ 13.99 triệu, trả chậm 0% lãi suất
-                </h5>
-                <p class="card-text">
-                  Laptop Acer trang bị chip Intel Core i5 dòng H, hiệu năng mạnh
-                  mẽ đáp ứng tốt nhu cầu học tập, làm việc và giải trí. Đi kèm
-                  RAM 16 GB, máy xử lý đa nhiệm mượt mà, giúp bạn làm việc hiệu
-                  quả hơn.
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 04*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc#1"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/12341234123512351251.jpg"
-                class="img-fluid card-img rounded-0"
-                alt="  iPhone 14 Plus giá chỉ từ 18.99 triệu, ưu đãi trả chậm 0% lãi
-                  suất, trả trước từ 30%"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  iPhone 14 Plus giá chỉ từ 18.99 triệu, ưu đãi trả chậm 0% lãi
-                  suất, trả trước từ 30%
-                </h5>
-                <p class="card-text">
-                  iPhone 14 Plus vẫn là lựa chọn hấp dẫn nhờ màn hình lớn 6.7
-                  inch Super Retina XDR, hiển thị sắc nét, pin bền bỉ dùng suốt
-                  ngày dài. Đặc biệt máy vẫn được cập nhật iOS lâu dài, đảm bảo
-                  trải nghiệm ổn định. Giá chỉ từ 18.99 triệu, hỗ trợ trả chậm
-                  0% lãi suất, trả trước từ 30%, mua ngay tại Thế Giới Di Động
-                  để nhận ưu đãi tốt nhất!
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 05*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc/tren-tay-tp-link-uh7020c-va-uh6120c-1575039"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/toc-do-doc-the-microsd-sd-hub-tplink.jpeg"
-                class="img-fluid card-img rounded-0"
-                alt="  Trên tay TP-Link UH7020C và UH6120C: Bộ đôi Hub USB-C đa năng, nhiều cổng kết nối khác nhau"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Trên tay TP-Link UH7020C và UH6120C: Bộ đôi Hub USB-C đa năng,
-                  nhiều cổng kết nối khác nhau
-                </h5>
-                <p class="card-text">
-                  Bộ đôi TP-Link UH7020C và UH6120C đều được thiết kế theo kiểu
-                  dáng hình chữ nhật với phần vỏ ngoài được hoàn thiện từ nhôm.
-                  Nhờ kiểu thiết kế này mà sản phẩm tạo ra cảm giác vừa sang
-                  trọng vừa cứng cáp.
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 06*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc/garmin-tactix-8-ra-mat-tich-hop-den-led-ho-tro-theo-doi-dien-tam-do-1575015"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/thumb Garmin Tactix 8.jpg"
-                class="img-fluid card-img rounded-0"
-                alt="  Tại sao các cặp đôi nên mua đồng hồ cặp tặng nhau nhân dịp Valentine này?"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Tại sao các cặp đôi nên mua đồng hồ cặp tặng nhau nhân dịp
-                  Valentine này?
-                </h5>
-                <p class="card-text">
-                  Mới đây, Garmin đã chính thức trình làng Garmin Tactix 8, mẫu
-                  smartwatch được phát triển dựa trên Garmin Fenix 8 nhưng được
-                  tích hợp thêm loạt tính năng bổ sung. Mẫu smartwatch này còn
-                  được tích hợp thêm đèn LED, khả năng theo dõi sức khỏe được
-                  cải tiến cùng thiết kế đầy mạnh mẽ và cứng cáp.
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 07*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc/tai-sao-cac-cap-doi-nen-mua-dong-ho-cap-tang-nhau-nhan-dip-valentine-nay-1575009"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/dong-ho-cap-23.jpg"
-                class="img-fluid card-img rounded-0"
-                alt=" Garmin Tactix 8 ra mắt: Tích hợp đèn
-              LED, hỗ trợ theo dõi điện tâm đồ ECG và thiết kế cực kỳ hầm hố"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Garmin Tactix 8 ra mắt: Tích hợp đèn LED, hỗ trợ theo dõi điện
-                  tâm đồ ECG và thiết kế cực kỳ hầm hố
-                </h5>
-                <p class="card-text">
-                  Valentine – ngày lễ tình nhân – là dịp để các cặp đôi bày tỏ
-                  tình cảm và trao nhau những món quà ý nghĩa. Bên cạnh những
-                  lựa chọn quen thuộc như hoa hồng, socola, một món quà độc đáo
-                  và trường tồn với thời gian đang ngày càng được ưa chuộng:
-                  đồng hồ cặp. Bạn đang tìm kiếm một món quà Valentine vượt thời
-                  gian, thể hiện sự gắn kết và mang ý nghĩa sâu sắc? Đồng hồ cặp
-                  có thể là câu trả lời hoàn hảo.
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 08*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc/tao-thiep-valentine-1509621"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/cnava-09.jpg"
-                class="img-fluid card-img rounded-0"
-                alt="   Hướng dẫn cách tạo thiệp Valentine online siêu đẹp để dành tặng cho nửa kia"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Hướng dẫn cách tạo thiệp Valentine online siêu đẹp để dành
-                  tặng cho nửa kia
-                </h5>
-                <p class="card-text">
-                  Không phải ai cũng có một ngày Valentine trọn vẹn bên người
-                  mình yêu. Với những cặp đôi yêu xa hay bận rộn vì công việc,
-                  việc không thể trao tận tay món quà hay tấm thiệp có thể khiến
-                  ngày này trở nên kém vui. Nhưng đừng lo, bạn vẫn có thể gửi
-                  gắm tình cảm theo cách đặc biệt hơn! Hãy cùng mình khám phá
-                  cách tạo thiệp Valentine đơn giản ngay trên điện thoại, giúp
-                  rút ngắn khoảng cách và làm ấm lòng nửa kia nhé!
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 09*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc/nhung-uu-diem-vuot-troi-cua-man-hinh-msi-so-voi-cac-doi-thu-khac-1574976"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/man-hinh-gaming-2.jpg"
-                class="img-fluid card-img rounded-0"
-                alt=" Những ưu điểm vượt trội
-              của màn hình MSI so với các đối thủ khác"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Những ưu điểm vượt trội của màn hình MSI so với các đối thủ
-                  khác
-                </h5>
-                <p class="card-text">
-                  Việc lựa chọn một chiếc màn hình máy tính phù hợp không chỉ
-                  đơn thuần là tìm kiếm một thiết bị hiển thị hình ảnh. Trong số
-                  các thương hiệu màn hình nổi tiếng, MSI chính là một lựa chọn
-                  hàng đầu, đặc biệt là đối với game thủ. Vậy điều gì làm nên sự
-                  khác biệt của màn hình máy tính MSI so với các đối thủ? Hãy
-                  cùng khám phá những ưu điểm vượt trội của màn hình MSI.
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-
-            <!-- *Card 10*  -->
-            <a
-              href="https://www.thegioididong.com/tin-tuc/qualcomm-ra-mat-snapdragon-6-gen-4-hieu-suat-cpu-va-gpu-nhanh-hon-1574991"
-              target="_blank"
-              class="card card-trans swiper-slide text-decoration-none"
-              style="width: 18rem"
-            >
-              <img
-                src="./assets/images/Blog/thumb Snapdragon 6 Gen 4.jpg"
-                class="img-fluid card-img rounded-0"
-                alt=" Qualcomm ra mắt
-              Snapdragon 6 Gen 4: Hiệu suất CPU và GPU nhanh hơn, tích hợp AI"
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Qualcomm ra mắt Snapdragon 6 Gen 4: Hiệu suất CPU và GPU nhanh
-                  hơn, tích hợp AI
-                </h5>
-                <p class="card-text">
-                  Qualcomm gần đây đã chính thức trình làng chip Snapdragon 6
-                  Gen 4 dành cho các thiết bị smartphone tầm trung. Được biết,
-                  vi xử lý này có tốc độ xử lý CPU nhanh hơn 11% và tốc độ xử lý
-                  GPU lên đến 29% so với thế hệ trước.
-                </p>
-                <button class="btn-arrow">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </a>
-          </div>
-          <!-- Add Swiper Pagination, Navigation buttons, etc. -->
-          <div class="swiper-pagination"></div>
-          <div
-            class="swiper-button-prev swiper-slide-button d-none d-md-block"
-          ></div>
-          <div
-            class="swiper-button-next swiper-slide-button d-none d-md-block"
-          ></div>
-        </div>
+        <nav aria-label="Page navigation example ">
+          <ul class="pagination justify-content-center mt-3">
+            <li class="page-item disabled">
+              <a class="page-link"><</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">></a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </section>
 
     <!-- *Footer* -->
-    <footer class="footer py-5 border-bottom bg-ccc">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-lg-3">
-            <div class="fw-bolder mb-2 color-cddr">DỊCH VỤ KHÁCH HÀNG</div>
-            <ul class="list-unstyled d-flex flex-column gp-5">
-              <li class="list-unstyled">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Trung Tâm Trợ Giúp Vaniiz IT</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Vaniiz IT Blog</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Vaniiz IT Mail</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Hướng Dẫn Mua Hàng/Đặt Hàng</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Hướng Dẫn Bán Hàng</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Đơn Hàng</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Trả Hàng/Hoàn Tiền</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Liên Hệ Vaniiz IT</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Chính Sách Bảo Hành</a
-                >
-              </li>
-            </ul>
-          </div>
+    <footer class="footer py-5 border-bottom bg-ccc" id="footer"></footer>
 
-          <div class="col-md-4 col-lg-3">
-            <div class="fw-bolder mb-2 color-cddr">VỀ CHÚNG TÔI</div>
-            <ul class="list-unstyled d-flex flex-column gp-5">
-              <li class="list-unstyled">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >VỀ Vaniiz IT</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Chính Sách Tuyển Dụng</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Điều Khoản Bảo Mật</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Chính Sách Bảo Mật</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Flash Sale</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Tiếp Thị Liên Kết</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Liên Hệ Truyền Thông</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-4 col-lg-3">
-            <div class="fw-bolder mb-2 color-cddr">HỆ THỐNG THANH TOÁN</div>
-            <ul class="list-unstyled d-flex flex-wrap w-70">
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-nonetext-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/cod.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/credit.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/down.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/express.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/jcb.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/pay.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/spay.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/visa.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-4 col-lg-3">
-            <div class="fw-bolder mb-2 color-cddr">KÊT NỐI CHÚNG TÔI</div>
-            <div class="d-flex gp-10">
-              <a
-                href="https://www.facebook.com/i.padygamy1210"
-                class="contact__qr text-decoration-none w-35 d-block"
-                target="_blank"
-              >
-                <img
-                  src="./assets/images/Cards/frame.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-              <ul
-                class="list-unstyled d-flex justify-content-center gp-5 flex-column"
-              >
-                <li>
-                  <a
-                    href="https://www.tiktok.com/@bugwhisperers?fbclid=IwY2xjawIe_HVleHRuA2FlbQIxMAABHWJ3QY7ui6Iac4EzviyrLY2GDylXIv36jSbfxFyqDh628H-lG2imXhB3cg_aem_i0IWMkWYyRB4ORWJyOKepg"
-                    class="text-decoration-none fs-18 text-hover"
-                    target="_blank"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                      width="18px"
-                      height="18px"
-                    >
-                      <path
-                        d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"
-                      />
-                    </svg>
-                    Tiktok</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/i.padygamy1210"
-                    class="text-decoration-none fs-18 text-hover"
-                    target="_blank"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                      width="18px"
-                      height="18px"
-                    >
-                      <path
-                        fill="#0f8ceb"
-                        d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
-                      />
-                    </svg>
-                    Facebook
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/viinhneee/?fbclid=IwY2xjawIe_HNleHRuA2FlbQIxMAABHZGiCc9wjv4GfUHpuWX5LbeZtNVzja8JUqpm9cEwZe16-jd4agyfQihQ4Q_aem_O0JUqkYnFGe-eMCOcyyXMA"
-                    class="text-decoration-none fs-18 text-hover"
-                    target="_blank"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                      width="18px"
-                      height="18px"
-                    >
-                      <path
-                        fill="#d53f73"
-                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                      />
-                    </svg>
-                    Instagram
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll("[data-filter-tablet]");
-        const products = document.querySelectorAll(".product-tablet");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            const selectedCategory = this.getAttribute("data-filter-tablet");
-
-            products.forEach((product) => {
-              const productCategory = product.getAttribute("data-category");
-
-              if (
-                selectedCategory === "all" ||
-                productCategory === selectedCategory
-              ) {
-                product.closest(".col-md-4").style.display = "flex"; // Hiển thị sản phẩm
-              } else {
-                product.closest(".col-md-4").style.display = "none"; // Ẩn sản phẩm
-              }
-            });
-          });
-        });
-      });
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll("[data-filter-smart]");
-        const products = document.querySelectorAll(".product-smart");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            const selectedCategory = this.getAttribute("data-filter-smart");
-
-            products.forEach((product) => {
-              const productCategory = product.getAttribute("data-category");
-
-              if (
-                selectedCategory === "all" ||
-                productCategory === selectedCategory
-              ) {
-                product.closest(".col-md-4").style.display = "flex"; // Hiển thị sản phẩm
-              } else {
-                product.closest(".col-md-4").style.display = "none"; // Ẩn sản phẩm
-              }
-            });
-          });
-        });
-      });
-    </script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll("[data-filter-laptop]");
-        const products = document.querySelectorAll(".product-laptop");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            const selectedCategory = this.getAttribute("data-filter-laptop");
-
-            products.forEach((product) => {
-              const productCategory = product.getAttribute("data-category");
-
-              if (
-                selectedCategory === "all" ||
-                productCategory === selectedCategory
-              ) {
-                product.closest(".col-md-4").style.display = "flex"; // Hiển thị sản phẩm
-              } else {
-                product.closest(".col-md-4").style.display = "none"; // Ẩn sản phẩm
-              }
-            });
-          });
-        });
-      });
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll("[data-filter-watch]");
-        const products = document.querySelectorAll(".product-watch");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            const selectedCategory = this.getAttribute("data-filter-watch");
-
-            products.forEach((product) => {
-              const productCategory = product.getAttribute("data-category");
-
-              if (
-                selectedCategory === "all" ||
-                productCategory === selectedCategory
-              ) {
-                product.closest(".col-md-4").style.display = "flex"; // Hiển thị sản phẩm
-              } else {
-                product.closest(".col-md-4").style.display = "none"; // Ẩn sản phẩm
-              }
-            });
-          });
-        });
-      });
-    </script>
     <!--=============== JQUERY ===============-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--=============== ASSETS ===============-->
-    <script src="./assets/js/main.js" type="module"></script>
-    <script src="./services/showModalPage.js" type="module"></script>
-    <script src="./services/filterProduct.js" type="module"></script>
-    <script src="./services/handleTimer.js" type="module"></script>
+    <script src="/assets/js/main.js" type="module"></script>
+    <script src="/services/showModalPage.js" type="module"></script>
+    <script src="/services/filterProduct.js" type="module"></script>
+    <script src="/services/handleTimer.js" type="module"></script>
+    <script src="/assets/js/script.js" type="module"></script>
+    <script src="/assets/js/main.js" type="module"></script>
     <!--=============== SWIPER ===============-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--=============== BOOTSTRAP ===============-->
@@ -4501,7 +4070,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/js/main.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -6,7 +6,7 @@
     <meta name="description" content="Vaniiz It | Web Development" />
     <link
       rel="shortcut icon"
-      href="./assets/images/Favicon/icon-57.png"
+      href="/assets/images/Favicon/icon-57.png"
       type="image/x-icon"
     />
     <!--=============== FONTAWESOME ===============-->
@@ -33,194 +33,15 @@
     />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Electronics E-Commerce</title>
   </head>
   <body>
     <!--  *Sub-Menu* -->
-    <section class="header__sub border-bottom">
-      <div class="container">
-        <div class="row">
-          <div
-            class="header__top d-flex justify-content-between mt-3 d-none d-md-flex"
-          >
-            <div class="header__info d-flex align-items-center">
-              <a
-                href="tel:+84352032375"
-                class="text-decoration-none d-flex align-items-center"
-              >
-                <p class="border-end px-2 me-2">+84 352 032 375</p>
-              </a>
-
-              <p>Vaniiz IT</p>
-            </div>
-            <div class="header__discount">
-              <p>Tell a friend about Group & get 20% discount</p>
-            </div>
-            <div class="header__option">
-              <select name="" id="" class="me-3 border-0">
-                <option value="Vnd">VND</option>
-                <option value="Usd">USD</option>
-                <option value="Euro">EURO</option>
-              </select>
-
-              <a href="login.html" class="text-black text-decoration-none"
-                >Sign In</a
-              >
-              <span>/</span>
-              <a
-                href="signUp.html"
-                class="text-black text-decoration-none"
-                id="sign-Up"
-                >Sign Up</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="header__sub border-bottom" id="subNav"></section>
 
     <!-- **Navbar -->
-    <section class="header__bar py-4 bg-white">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand text-primary fw-bolder" href="index.html"
-            ><i class="ri-store-line"></i> TechStore</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-capitalize text-dark home--active"
-                  aria-current="page"
-                  href="index.html"
-                  >Trang Chủ</a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a
-                  class="nav-link text-capitalize text-dark"
-                  href="./tablet.html"
-                  aria-current="page"
-                  target="_blank"
-                  >Tablet</a
-                >
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-capitalize text-dark"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Phụ Kiện
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Bản tin công nghệ</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Thông tin giảm giá</a
-                    >
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Trải nghiệm khách hàng</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-capitalize text-dark"
-                  href="./laptop.html"
-                  aria-current="page"
-                  target="_blank"
-                  >Laptop</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-capitalize text-dark"
-                  href="./smart.html"
-                  aria-current="page"
-                  target="_blank"
-                  >Smart Phone</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-capitalize text-dark"
-                  href="./watch.html"
-                  aria-current="page"
-                  target="_blank"
-                  >Smart Watch</a
-                >
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-capitalize text-dark"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Bản Tin
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Bản tin công nghệ</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Thông tin giảm giá</a
-                    >
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item text-dark" href="#"
-                      >Trải nghiệm khách hàng</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </section>
+    <section class="header__bar py-4 bg-white" id="navbar"></section>
 
     <!-- *Header* -->
     <header class="py-5 border-bottom bg-light">
@@ -240,7 +61,7 @@
           <div class="col-md-7">
             <div>
               <img
-                src="./assets/images/Devices/Image 1.png"
+                src="/assets/images/Devices/Image 1.png"
                 alt=""
                 class="img-fluid shadow"
               />
@@ -265,7 +86,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide01.jpg"
+                    src="/assets/images/slider/slide01.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -279,7 +100,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide02.jpg"
+                    src="/assets/images/slider/slide02.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -307,7 +128,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide04.jpg"
+                    src="/assets/images/slider/slide04.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -321,7 +142,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide05.jpg"
+                    src="/assets/images/slider/slide05.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -335,7 +156,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide06.jpg"
+                    src="/assets/images/slider/slide06.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -349,7 +170,7 @@
                   style="max-height: 500px; width: 810px"
                 >
                   <img
-                    src="./assets/images/slider/slide07.jpg"
+                    src="/assets/images/slider/slide07.jpg"
                     class="img-fluid object-fit-cover w-100"
                     alt="Chat with Deepseek AI"
                   />
@@ -370,14 +191,14 @@
             <div class="ms-10">
               <div class="mb-50">
                 <img
-                  src="./assets/images/slider/slide08.jpg"
+                  src="/assets/images/slider/slide08.jpg"
                   alt=""
                   class="img-fluid"
                 />
               </div>
               <div>
                 <img
-                  src="./assets/images/slider/slide09.jpg"
+                  src="/assets/images/slider/slide09.jpg"
                   alt=""
                   class="img-fluid"
                 />
@@ -405,7 +226,7 @@
               <div class="item">
                 <div class="wrap__img mb-3">
                   <img
-                    src="./assets/images/Category/xacduphong.png"
+                    src="/assets/images/Category/xacduphong.png"
                     alt="Xạc dự phòng"
                     class="img-fluid w-75"
                   />
@@ -420,7 +241,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/camerangoaitroi.png"
+                    src="/assets/images/Category/camerangoaitroi.png"
                     alt="Camera"
                     class="img-fluid"
                   />
@@ -435,7 +256,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/capxac.png"
+                    src="/assets/images/Category/capxac.png"
                     alt="Cáp Xạc"
                     class="img-fluid"
                   />
@@ -450,7 +271,7 @@
               <div class="item">
                 <div class="wrap__img mb-4">
                   <img
-                    src="./assets/images/Category/flycam.png"
+                    src="/assets/images/Category/flycam.png"
                     alt="Fly Cam"
                     class="img-fluid"
                   />
@@ -465,7 +286,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/keyboard.png"
+                    src="/assets/images/Category/keyboard.png"
                     alt="Bàn Phím"
                     class="img-fluid"
                   />
@@ -480,7 +301,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/loa.png"
+                    src="/assets/images/Category/loa.png"
                     alt="Loa"
                     class="img-fluid"
                   />
@@ -495,7 +316,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/route.png"
+                    src="/assets/images/Category/route.png"
                     alt="Route"
                     class="img-fluid"
                   />
@@ -514,7 +335,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/headphone.png"
+                    src="/assets/images/Category/headphone.png"
                     alt="Tai Nghe"
                     class="img-fluid"
                   />
@@ -529,7 +350,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/pc.webp"
+                    src="/assets/images/Category/pc.webp"
                     alt="Laptop"
                     class="img-fluid w-75"
                   />
@@ -544,7 +365,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/smartphone.webp"
+                    src="/assets/images/Category/smartphone.webp"
                     alt="Smart Phone"
                     class="img-fluid w-75"
                   />
@@ -559,7 +380,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/mayanh.webp"
+                    src="/assets/images/Category/mayanh.webp"
                     alt="Máy ảnh"
                     class="img-fluid w-75"
                   />
@@ -574,7 +395,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/pc.webp"
+                    src="/assets/images/Category/pc.webp"
                     alt="PC"
                     class="img-fluid w-75"
                   />
@@ -589,7 +410,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/laptop.webp"
+                    src="/assets/images/Category/laptop.webp"
                     alt="Laptop"
                     class="img-fluid w-75"
                   />
@@ -604,7 +425,7 @@
               <div class="item">
                 <div class="wrap__img mb-3">
                   <img
-                    src="./assets/images/Category/cameratrongnha.png"
+                    src="/assets/images/Category/cameratrongnha.png"
                     alt="Camera trong nhà"
                     class="img-fluid w-75"
                   />
@@ -619,7 +440,7 @@
               <div class="item">
                 <div class="wrap__img mb-3">
                   <img
-                    src="./assets/images/Category/tainghe.png"
+                    src="/assets/images/Category/tainghe.png"
                     alt="Tai nghe bluetooth"
                     class="img-fluid w-75"
                   />
@@ -634,7 +455,7 @@
               <div class="item">
                 <div class="wrap__img">
                   <img
-                    src="./assets/images/Category/watch.webp"
+                    src="/assets/images/Category/watch.webp"
                     alt="Đồng hồ"
                     class="img-fluid w-75"
                   />
@@ -666,7 +487,7 @@
               </button>
               <div class="img-container w-25">
                 <img
-                  src="./assets/images/Devices/Image 7.png"
+                  src="/assets/images/Devices/Image 7.png"
                   alt="Smart Camera"
                   class="img-fluid"
                 />
@@ -685,7 +506,7 @@
               </button>
               <div class="img-container w-25">
                 <img
-                  src="./assets/images/Devices/Image 8.png"
+                  src="/assets/images/Devices/Image 8.png"
                   alt="Entertainment & Game"
                   class="img-fluid"
                 />
@@ -704,12 +525,12 @@
             <div class="d-flex justify-content-between align-items-center">
               <h2 class="">Smart Tablet</h2>
               <a
-                href="#tablet"
+                href="/pages/tablet.html"
                 class="d-md-flex d-none align-items-center me-2 text-decoration-none"
               >
                 View of all Products
                 <img
-                  src="./assets/images/Small Icons/Arrow Right.svg"
+                  src="/assets/images/Small Icons/Arrow Right.svg"
                   alt="Arrow Right"
                   class="text-bg-danger ms-2"
                 />
@@ -732,7 +553,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/ipad.png"
+                src="/assets/images/Cards/ipad.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -744,7 +565,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/xiaomi.png"
+                src="/assets/images/Cards/xiaomi.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -756,7 +577,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/samsum.png"
+                src="/assets/images/Cards/samsum.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -768,7 +589,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/oppo.png"
+                src="/assets/images/Cards/oppo.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -780,7 +601,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/samsum.png"
+                src="/assets/images/Cards/samsum.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -792,7 +613,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/xiaomi.png"
+                src="/assets/images/Cards/xiaomi.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -804,7 +625,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/lenovo.png"
+                src="/assets/images/Cards/lenovo.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -816,7 +637,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/realme.png"
+                src="/assets/images/Cards/realme.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -928,7 +749,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/ipad10.jpg"
+                    src="/assets/images/Devices/Tablet/ipad10.jpg"
                     alt="
 
            
@@ -1004,7 +825,7 @@
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                  <p class="fs-5 text-danger fw-bold me-3 mt-0 mb-0 d-flex">
                     8.990.000<sub>đ</sub>
                   </p>
                   <p
@@ -1013,14 +834,7 @@
                     11.990.000₫<sub>đ</sub>
                   </p>
                 </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
+                <button class="btn btn-danger mt-2">Mua Ngay</button>
               </div>
             </a>
           </div>
@@ -1036,7 +850,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/ipadAir6.jpg"
+                    src="/assets/images/Devices/Tablet/ipadAir6.jpg"
                     alt="
           
            
@@ -1112,7 +926,7 @@
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                  <p class="fs-5 text-danger fw-bold me-3 mt-0 mb-0 d-flex">
                     14.590.000<sub>đ</sub>
                   </p>
                   <p
@@ -1121,14 +935,7 @@
                     16.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
+                <button class="btn btn-danger mt-2">Mua Ngay</button>
               </div>
             </a>
           </div>
@@ -1144,7 +951,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/ipadXiaomiSE.jpg"
+                    src="/assets/images/Devices/Tablet/ipadXiaomiSE.jpg"
                     alt="
           
     
@@ -1222,7 +1029,7 @@
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                  <p class="fs-5 text-danger fw-bold me-3 mt-0 mb-0 d-flex">
                     4.000.000<sub>đ</sub>
                   </p>
                   <p
@@ -1231,14 +1038,7 @@
                     4.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
+                <button class="btn btn-danger mt-2">Mua Ngay</button>
               </div>
             </a>
           </div>
@@ -1254,7 +1054,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/lenovoTab.jpg"
+                    src="/assets/images/Devices/Tablet/lenovoTab.jpg"
                     alt="
           
     
@@ -1334,7 +1134,7 @@
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                  <p class="fs-5 text-danger fw-bold me-3 mt-0 mb-0 d-flex">
                     5.990.000<sub>đ</sub>
                   </p>
                   <p
@@ -1343,14 +1143,7 @@
                     6.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
+                <button class="btn btn-danger mt-2">Mua Ngay</button>
               </div>
             </a>
           </div>
@@ -1366,7 +1159,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/samsungTabA9.jpg"
+                    src="/assets/images/Devices/Tablet/samsungTabA9.jpg"
                     alt="
           
     
@@ -1444,7 +1237,7 @@
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                  <p class="fs-5 text-danger fw-bold me-3 mt-0 mb-0 d-flex">
                     5.990.000<sub>đ</sub>
                   </p>
                   <p
@@ -1453,14 +1246,7 @@
                     6.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
+                <button class="btn btn-danger mt-2">Mua Ngay</button>
               </div>
             </a>
           </div>
@@ -1476,7 +1262,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/oppoPad3.jpg"
+                    src="/assets/images/Devices/Tablet/oppoPad3.jpg"
                     alt="
           
     
@@ -1552,7 +1338,7 @@
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                  <p class="fs-5 text-danger fw-bold me-3 mt-0 mb-0 d-flex">
                     7.990.000₫<sub>đ</sub>
                   </p>
                   <p
@@ -1561,14 +1347,7 @@
                     8.390.000<sub>đ</sub>
                   </p>
                 </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
+                <button class="btn btn-danger mt-2">Mua Ngay</button>
               </div>
             </a>
           </div>
@@ -1584,7 +1363,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/tabTCL.jpg"
+                    src="/assets/images/Devices/Tablet/tabTCL.jpg"
                     alt="
           
     
@@ -1662,7 +1441,7 @@
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                  <p class="fs-5 text-danger fw-bold me-3 mt-0 mb-0 d-flex">
                     2.590.000<sub>đ</sub>
                   </p>
                   <p
@@ -1671,14 +1450,7 @@
                     2.700.000<sub>đ</sub>
                   </p>
                 </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
+                <button class="btn btn-danger mt-2">Mua Ngay</button>
               </div>
             </a>
           </div>
@@ -1694,7 +1466,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/honorPad10.jpg"
+                    src="/assets/images/Devices/Tablet/honorPad10.jpg"
                     alt="
           
     
@@ -1774,7 +1546,7 @@
                 <div
                   class="d-flex justify-content-center align-items-center mt-2 mb-0 flex-column"
                 >
-                  <p class="fs-5 text-danger fw-bold mt-0 mb-0 d-flex">
+                  <p class="fs-5 text-danger fw-bold me-3 mt-0 mb-0 d-flex">
                     4.600.000<sub>đ</sub>
                   </p>
                   <p
@@ -1783,14 +1555,7 @@
                     4.990.000<sub>đ</sub>
                   </p>
                 </div>
-                <button
-                  class="btn btn-danger mt-2"
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  title="Buy Now"
-                >
-                  Mua Ngay
-                </button>
+                <button class="btn btn-danger mt-2">Mua Ngay</button>
               </div>
             </a>
           </div>
@@ -1865,7 +1630,7 @@
                 <div class="carousel-item active">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera06.png"
+                      src="/assets/images/Devices/camera06.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -1876,7 +1641,7 @@
                 <div class="carousel-item">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera02.png"
+                      src="/assets/images/Devices/camera02.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -1887,7 +1652,7 @@
                 <div class="carousel-item">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera05.png"
+                      src="/assets/images/Devices/camera05.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -1898,7 +1663,7 @@
                 <div class="carousel-item">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera05.png"
+                      src="/assets/images/Devices/camera05.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -1909,7 +1674,7 @@
                 <div class="carousel-item">
                   <div class="w-50 mx-auto">
                     <img
-                      src="./assets/images/Devices/camera06.png"
+                      src="/assets/images/Devices/camera06.png"
                       class="d-block object-fit-cover img-fluid z-0 opacity-75"
                       alt="..."
                     />
@@ -1960,7 +1725,7 @@
             >
               View of all Products
               <img
-                src="./assets/images/Small Icons/Arrow Right.svg"
+                src="/assets/images/Small Icons/Arrow Right.svg"
                 alt="Arrow Right"
                 class="text-bg-danger ms-2"
               />
@@ -1969,7 +1734,7 @@
           <div class="col-md-3 mb-3 mb-md-0">
             <div>
               <img
-                src="./assets/images/Banner/9f47d2a3-504e-45bf-8e7e-b4680039caa3.png"
+                src="/assets/images/Banner/9f47d2a3-504e-45bf-8e7e-b4680039caa3.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -1978,7 +1743,7 @@
           <div class="col-md-3 mb-3 mb-md-0">
             <div>
               <img
-                src="./assets/images/Banner/ac7e0383-7962-422d-8001-e365fb0ddb51.png"
+                src="/assets/images/Banner/ac7e0383-7962-422d-8001-e365fb0ddb51.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -1987,7 +1752,7 @@
           <div class="col-md-3 mb-3 mb-md-0">
             <div>
               <img
-                src="./assets/images/Banner/d14c2c5f0b25a60e0bdce67bbc80f0f2.png"
+                src="/assets/images/Banner/d14c2c5f0b25a60e0bdce67bbc80f0f2.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -1996,7 +1761,7 @@
           <div class="col-md-3 mb-3 mb-md-0">
             <div>
               <img
-                src="./assets/images/Banner/d2712ef7d44563ef70d1852ca8e6f8f4.png"
+                src="/assets/images/Banner/d2712ef7d44563ef70d1852ca8e6f8f4.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2021,7 +1786,7 @@
               >
                 View of all Products
                 <img
-                  src="./assets/images/Small Icons/Arrow Right.svg"
+                  src="/assets/images/Small Icons/Arrow Right.svg"
                   alt="Arrow Right"
                   class="text-bg-danger ms-2"
                 />
@@ -2039,7 +1804,7 @@
               target="_blank"
             >
               <img
-                src="./assets/images/Blog/deepseek.jpg"
+                src="/assets/images/Blog/deepseek.jpg"
                 class="img-fluid card-img rounded-0"
                 alt="Chat with Deepseek AI"
               />
@@ -2065,7 +1830,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/oppo-pad-3-2.jpg"
+                src="/assets/images/Blog/oppo-pad-3-2.jpg"
                 class="img-fluid card-img rounded-0"
                 alt="Vì sao OPPO Pad 3 là chiếc tablet tầm trung làm việc ưu việt
                   nhất năm 2025?"
@@ -2096,7 +1861,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/Untitled-112341235.jpg"
+                src="/assets/images/Blog/Untitled-112341235.jpg"
                 class="img-fluid card-img rounded-0"
                 alt="Laptop Acer Core i5 chip H, cấu hình mạnh mẽ với ram 16 GB giá chỉ từ 13.99 triệu, trả chậm 0% lãi suất"
               />
@@ -2125,7 +1890,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/12341234123512351251.jpg"
+                src="/assets/images/Blog/12341234123512351251.jpg"
                 class="img-fluid card-img rounded-0"
                 alt="  iPhone 14 Plus giá chỉ từ 18.99 triệu, ưu đãi trả chậm 0% lãi
                   suất, trả trước từ 30%"
@@ -2157,7 +1922,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/toc-do-doc-the-microsd-sd-hub-tplink.jpeg"
+                src="/assets/images/Blog/toc-do-doc-the-microsd-sd-hub-tplink.jpeg"
                 class="img-fluid card-img rounded-0"
                 alt="  Trên tay TP-Link UH7020C và UH6120C: Bộ đôi Hub USB-C đa năng, nhiều cổng kết nối khác nhau"
               />
@@ -2186,7 +1951,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/thumb Garmin Tactix 8.jpg"
+                src="/assets/images/Blog/thumb Garmin Tactix 8.jpg"
                 class="img-fluid card-img rounded-0"
                 alt="  Tại sao các cặp đôi nên mua đồng hồ cặp tặng nhau nhân dịp Valentine này?"
               />
@@ -2216,7 +1981,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/dong-ho-cap-23.jpg"
+                src="/assets/images/Blog/dong-ho-cap-23.jpg"
                 class="img-fluid card-img rounded-0"
                 alt=" Garmin Tactix 8 ra mắt: Tích hợp đèn
               LED, hỗ trợ theo dõi điện tâm đồ ECG và thiết kế cực kỳ hầm hố"
@@ -2249,7 +2014,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/cnava-09.jpg"
+                src="/assets/images/Blog/cnava-09.jpg"
                 class="img-fluid card-img rounded-0"
                 alt="   Hướng dẫn cách tạo thiệp Valentine online siêu đẹp để dành tặng cho nửa kia"
               />
@@ -2281,7 +2046,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/man-hinh-gaming-2.jpg"
+                src="/assets/images/Blog/man-hinh-gaming-2.jpg"
                 class="img-fluid card-img rounded-0"
                 alt=" Những ưu điểm vượt trội
               của màn hình MSI so với các đối thủ khác"
@@ -2313,7 +2078,7 @@
               style="width: 18rem"
             >
               <img
-                src="./assets/images/Blog/thumb Snapdragon 6 Gen 4.jpg"
+                src="/assets/images/Blog/thumb Snapdragon 6 Gen 4.jpg"
                 class="img-fluid card-img rounded-0"
                 alt=" Qualcomm ra mắt
               Snapdragon 6 Gen 4: Hiệu suất CPU và GPU nhanh hơn, tích hợp AI"
@@ -2355,12 +2120,12 @@
             <div class="d-flex justify-content-between align-items-center">
               <h2 class="">Smart Tablet</h2>
               <a
-                href="#tablet"
+                href="/pages/tablet.html"
                 class="d-md-flex d-none align-items-center me-2 text-decoration-none"
               >
                 View of all Products
                 <img
-                  src="./assets/images/Small Icons/Arrow Right.svg"
+                  src="/assets/images/Small Icons/Arrow Right.svg"
                   alt="Arrow Right"
                   class="text-bg-danger ms-2"
                 />
@@ -2383,7 +2148,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/ipad.png"
+                src="/assets/images/Cards/ipad.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2395,7 +2160,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/xiaomi.png"
+                src="/assets/images/Cards/xiaomi.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2407,7 +2172,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/samsum.png"
+                src="/assets/images/Cards/samsum.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2419,7 +2184,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/oppo.png"
+                src="/assets/images/Cards/oppo.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2431,7 +2196,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/samsum.png"
+                src="/assets/images/Cards/samsum.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2443,7 +2208,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/xiaomi.png"
+                src="/assets/images/Cards/xiaomi.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2455,7 +2220,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/lenovo.png"
+                src="/assets/images/Cards/lenovo.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2467,7 +2232,7 @@
             >
               <i class="fa-solid fa-arrow-trend-up"></i>
               <img
-                src="./assets/images/Cards/realme.png"
+                src="/assets/images/Cards/realme.png"
                 alt=""
                 class="img-fluid object-fit-cover"
               />
@@ -2579,7 +2344,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/ipad10.jpg"
+                    src="/assets/images/Devices/Tablet/ipad10.jpg"
                     alt="
 
            
@@ -2680,7 +2445,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/ipadAir6.jpg"
+                    src="/assets/images/Devices/Tablet/ipadAir6.jpg"
                     alt="
           
            
@@ -2781,7 +2546,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/ipadXiaomiSE.jpg"
+                    src="/assets/images/Devices/Tablet/ipadXiaomiSE.jpg"
                     alt="
           
     
@@ -2884,7 +2649,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/lenovoTab.jpg"
+                    src="/assets/images/Devices/Tablet/lenovoTab.jpg"
                     alt="
           
     
@@ -2989,7 +2754,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/samsungTabA9.jpg"
+                    src="/assets/images/Devices/Tablet/samsungTabA9.jpg"
                     alt="
           
     
@@ -3092,7 +2857,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/oppoPad3.jpg"
+                    src="/assets/images/Devices/Tablet/oppoPad3.jpg"
                     alt="
           
     
@@ -3193,7 +2958,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/tabTCL.jpg"
+                    src="/assets/images/Devices/Tablet/tabTCL.jpg"
                     alt="
           
     
@@ -3296,7 +3061,7 @@
               >
                 <div class="card-img">
                   <img
-                    src="./assets/images/Devices/Tablet/honorPad10.jpg"
+                    src="/assets/images/Devices/Tablet/honorPad10.jpg"
                     alt="
           
     
@@ -3408,449 +3173,17 @@
     </section>
 
     <!-- *Footer* -->
-    <footer class="footer py-5 border-bottom bg-ccc">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-lg-3">
-            <div class="fw-bolder mb-2 color-cddr">DỊCH VỤ KHÁCH HÀNG</div>
-            <ul class="list-unstyled d-flex flex-column gp-5">
-              <li class="list-unstyled">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Trung Tâm Trợ Giúp Vaniiz IT</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Vaniiz IT Blog</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Vaniiz IT Mail</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Hướng Dẫn Mua Hàng/Đặt Hàng</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Hướng Dẫn Bán Hàng</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Đơn Hàng</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Trả Hàng/Hoàn Tiền</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Liên Hệ Vaniiz IT</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Chính Sách Bảo Hành</a
-                >
-              </li>
-            </ul>
-          </div>
+    <footer class="footer py-5 border-bottom bg-ccc" id="footer"></footer>
 
-          <div class="col-md-4 col-lg-3">
-            <div class="fw-bolder mb-2 color-cddr">VỀ CHÚNG TÔI</div>
-            <ul class="list-unstyled d-flex flex-column gp-5">
-              <li class="list-unstyled">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >VỀ Vaniiz IT</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Chính Sách Tuyển Dụng</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Điều Khoản Bảo Mật</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Chính Sách Bảo Mật</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Flash Sale</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Tiếp Thị Liên Kết</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                  >Liên Hệ Truyền Thông</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-4 col-lg-3">
-            <div class="fw-bolder mb-2 color-cddr">HỆ THỐNG THANH TOÁN</div>
-            <ul class="list-unstyled d-flex flex-wrap w-70">
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-nonetext-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/cod.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/credit.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/down.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/express.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/jcb.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/pay.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/spay.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-              <li class="list-unstyled bg-white item-size">
-                <a
-                  href="#!"
-                  class="text-decoration-none text-hover"
-                  target="_blank"
-                >
-                  <img
-                    src="./assets/images/Cards/visa.png"
-                    alt="logo"
-                    class="img-fluid object-fit-cover"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-4 col-lg-3">
-            <div class="fw-bolder mb-2 color-cddr">KÊT NỐI CHÚNG TÔI</div>
-            <div class="d-flex gp-10">
-              <a
-                href="https://www.facebook.com/i.padygamy1210"
-                class="contact__qr text-decoration-none w-35 d-block"
-                target="_blank"
-              >
-                <img
-                  src="./assets/images/Cards/frame.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-              <ul
-                class="list-unstyled d-flex justify-content-center gp-5 flex-column"
-              >
-                <li>
-                  <a
-                    href="https://www.tiktok.com/@bugwhisperers?fbclid=IwY2xjawIe_HVleHRuA2FlbQIxMAABHWJ3QY7ui6Iac4EzviyrLY2GDylXIv36jSbfxFyqDh628H-lG2imXhB3cg_aem_i0IWMkWYyRB4ORWJyOKepg"
-                    class="text-decoration-none fs-18 text-hover"
-                    target="_blank"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                      width="18px"
-                      height="18px"
-                    >
-                      <path
-                        d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"
-                      />
-                    </svg>
-                    Tiktok</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/i.padygamy1210"
-                    class="text-decoration-none fs-18 text-hover"
-                    target="_blank"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                      width="18px"
-                      height="18px"
-                    >
-                      <path
-                        fill="#0f8ceb"
-                        d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
-                      />
-                    </svg>
-                    Facebook
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/viinhneee/?fbclid=IwY2xjawIe_HNleHRuA2FlbQIxMAABHZGiCc9wjv4GfUHpuWX5LbeZtNVzja8JUqpm9cEwZe16-jd4agyfQihQ4Q_aem_O0JUqkYnFGe-eMCOcyyXMA"
-                    class="text-decoration-none fs-18 text-hover"
-                    target="_blank"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                      width="18px"
-                      height="18px"
-                    >
-                      <path
-                        fill="#d53f73"
-                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                      />
-                    </svg>
-                    Instagram
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll("[data-filter-tablet]");
-        const products = document.querySelectorAll(".product-tablet");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            const selectedCategory = this.getAttribute("data-filter-tablet");
-
-            products.forEach((product) => {
-              const productCategory = product.getAttribute("data-category");
-
-              if (
-                selectedCategory === "all" ||
-                productCategory === selectedCategory
-              ) {
-                product.closest(".col-md-4").style.display = "flex"; // Hiển thị sản phẩm
-              } else {
-                product.closest(".col-md-4").style.display = "none"; // Ẩn sản phẩm
-              }
-            });
-          });
-        });
-      });
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll("[data-filter-smart]");
-        const products = document.querySelectorAll(".product-smart");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            const selectedCategory = this.getAttribute("data-filter-smart");
-
-            products.forEach((product) => {
-              const productCategory = product.getAttribute("data-category");
-
-              if (
-                selectedCategory === "all" ||
-                productCategory === selectedCategory
-              ) {
-                product.closest(".col-md-4").style.display = "flex"; // Hiển thị sản phẩm
-              } else {
-                product.closest(".col-md-4").style.display = "none"; // Ẩn sản phẩm
-              }
-            });
-          });
-        });
-      });
-    </script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll("[data-filter-laptop]");
-        const products = document.querySelectorAll(".product-laptop");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            const selectedCategory = this.getAttribute("data-filter-laptop");
-
-            products.forEach((product) => {
-              const productCategory = product.getAttribute("data-category");
-
-              if (
-                selectedCategory === "all" ||
-                productCategory === selectedCategory
-              ) {
-                product.closest(".col-md-4").style.display = "flex"; // Hiển thị sản phẩm
-              } else {
-                product.closest(".col-md-4").style.display = "none"; // Ẩn sản phẩm
-              }
-            });
-          });
-        });
-      });
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const filterButtons = document.querySelectorAll("[data-filter-watch]");
-        const products = document.querySelectorAll(".product-watch");
-
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", function () {
-            const selectedCategory = this.getAttribute("data-filter-watch");
-
-            products.forEach((product) => {
-              const productCategory = product.getAttribute("data-category");
-
-              if (
-                selectedCategory === "all" ||
-                productCategory === selectedCategory
-              ) {
-                product.closest(".col-md-4").style.display = "flex"; // Hiển thị sản phẩm
-              } else {
-                product.closest(".col-md-4").style.display = "none"; // Ẩn sản phẩm
-              }
-            });
-          });
-        });
-      });
-    </script>
     <!--=============== JQUERY ===============-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--=============== ASSETS ===============-->
-    <script src="./assets/js/main.js" type="module"></script>
-    <script src="./services/showModalPage.js" type="module"></script>
-    <script src="./services/filterProduct.js" type="module"></script>
-    <script src="./services/handleTimer.js" type="module"></script>
+    <script src="/assets/js/main.js" type="module"></script>
+    <script src="/services/showModalPage.js" type="module"></script>
+    <script src="/services/filterProduct.js" type="module"></script>
+    <script src="/services/handleTimer.js" type="module"></script>
+    <script src="/assets/js/main.js" type="module"></script>
+    <script src="/assets/js/script.js" type="module"></script>
     <!--=============== SWIPER ===============-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--=============== BOOTSTRAP ===============-->
@@ -3859,7 +3192,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/js/main.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
