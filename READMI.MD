@@ -78,3 +78,12 @@ Author: @Vinhdev04
 - Chat box
 - Payment
 - Pagination product pages
+
+# 4. Dùng URL Parameter để truyền dữ liệu sản phẩm
+
+- Lấy ID từ URL (id=1, id=2...)
+- Tìm sản phẩm theo ID trong danh sách
+- Hiển thị thông tin sản phẩm tương ứng
+- // Lấy ID từ URL:
+- const params = new URLSearchParams(window.location.search);
+- const productId = parseInt(params.get("id"));

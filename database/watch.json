@@ -1,0 +1,333 @@
+{
+  "watch": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy Fit3 dây silicone",
+      "price": { "new": "1.190.000₫", "old": "1.390.000₫" },
+      "discount": "14%",
+      "rating": "⭐4.9",
+      "images": [
+        "/assets/images/Devices/SmartWatch/samsung-galaxy-fit3-hong-hc-1-750x500.jpg"
+      ],
+      "description": "Màn hình AMOLED, 1.6 inch, pin 7 ngày",
+      "policy": [
+        "Bộ sản phẩm gồm: Dây sạc, Sách hướng dẫn, Hộp",
+        "Bảo hành có cam kết 12 tháng",
+        "Pin 7 ngày, bảo mật tốt",
+        "Bảo hành chính hãng đồng hồ thông minh 1 năm tại các trung tâm bảo hành hãng Xem địa chỉ bảo hành"
+      ],
+      "thumbnail": "/assets/images/Devices/SmartWatch/samsung-galaxy-fit3-den-note.jpg",
+      "screen": {
+        "screenTechnology": "AMOLED",
+        "resolution": "240 x 120",
+        "size": "1.77 inch"
+      },
+      "design": {
+        "frontMaterial": "Kính thường",
+        "frameMaterial": "Nhôm",
+        "strapWidth": "2.4cm",
+        "wristCircumference": "Hàng không công bố",
+        "replaceableStrap": true
+      },
+      "utilities": {
+        "sports": ["Đạp xe", "Quần vợt", "Cầu lông", "Bóng rổ", "Bóng đá"],
+        "specialFeatures": "Kháng nước 5 ATM (Tắm, bơi vùng nước nông)",
+        "healthTracking": [
+          "Đo nồng độ oxy (SpO2)",
+          "Phát hiện tiếng ngáy",
+          "Theo dõi giấc ngủ",
+          "Đo nhịp tim",
+          "Đếm số bước chân"
+        ]
+      },
+      "configuration": {
+        "internalStorage": "256 MB",
+        "operatingSystem": "Tizen OS",
+        "compatibleOS": "Android 10.0 trở lên",
+        "connectivity": "Bluetooth v5.3"
+      },
+      "battery": {
+        "capacity": "120 mAh",
+        "usageTime": "7 ngày",
+        "chargingTime": "2 giờ"
+      },
+      "specialFunctions": {
+        "waterResistance": "5ATM (Chống nước ở độ sâu 50m)",
+        "GPS": "Có (kết nối với điện thoại)",
+        "notifications": "Có thông báo cuộc gọi, tin nhắn, ứng dụng",
+        "sportsModes": ["Đo lường nhịp tim", "Bước đi", "Theo dõi giấc ngủ"]
+      },
+      "operatingSystemSupport": {
+        "supportedOS": "Tizen OS",
+        "softwareUpdate": "Tự động qua kết nối Bluetooth"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi Mi Band 9 dây TPU",
+      "price": { "new": "890.000₫", "old": "990.000₫" },
+      "discount": "10%",
+      "rating": "⭐4.9",
+      "images": [
+        "/assets/images/Devices/SmartWatch/xiaomi02.01.jpg",
+        "/assets/images/Devices/SmartWatch/xiaomi02.jpg",
+        "/assets/images/Devices/SmartWatch/xiaomi02.03.jpg",
+        "/assets/images/Devices/SmartWatch/xiaomi02.04.jpg",
+        "/assets/images/Devices/SmartWatch/xiaomi02.05.jpg",
+        "/assets/images/Devices/SmartWatch/xiaomi02.06.jpg"
+      ],
+      "description": "Màn hình AMOLED, 1.6 inch, pin 7 ngày",
+      "policy": [
+        "Bộ sản phẩm gồm: Dây sạc, Sách hướng dẫn, Hộp",
+        "Bảo hành có cam kết 12 tháng",
+        "Pin 7 ngày, bảo mật tốt",
+        "Bảo hành chính hãng đồng hồ thông minh 1 năm tại các trung tâm bảo hành hãng Xem địa chỉ bảo hành"
+      ],
+      "thumbnail": "/assets/images/Devices/SmartWatch/xiaomi02.07.jpg",
+      "screen": {
+        "screenTechnology": "AMOLED",
+        "resolution": "490 × 192 pixels",
+        "size": "1.62 inch"
+      },
+      "design": {
+        "frontMaterial": "Kính cường lực 2.5D",
+        "frameMaterial": "Kim loại",
+        "strapWidth": "2.4cm",
+        "wristCircumference": "Hàng không công bố",
+        "replaceableStrap": true
+      },
+      "utilities": {
+        "sports": ["Đạp xe", "Quần vợt", "Cầu lông", "Bóng rổ", "Bóng đá"],
+        "specialFeatures": "Kháng nước 5 ATM (Tắm, bơi vùng nước nông)",
+        "healthTracking": [
+          "Đo nồng độ oxy (SpO2)",
+          "Phát hiện tiếng ngáy",
+          "Theo dõi giấc ngủ",
+          "Đo nhịp tim",
+          "Đếm số bước chân"
+        ]
+      },
+      "configuration": {
+        "internalStorage": "Hãng không công bố",
+        "operatingSystem": "Hãng không công bố",
+        "compatibleOS": "Android 8.0 trở lên, iOS 12 trở lên",
+        "connectivity": "Bluetooth v5.4"
+      },
+      "battery": {
+        "capacity": "233 mAh",
+        "usageTime": "Khoảng 9 ngày (khi bật Always On Display) Khoảng 21 ngày (ở chế độ đồng hồ thông minh)",
+        "chargingTime": "1 giờ"
+      },
+      "specialFunctions": {
+        "waterResistance": "5ATM (Chống nước ở độ sâu 50m)",
+        "GPS": "Có (kết nối với điện thoại)",
+        "notifications": "Có thông báo cuộc gọi, tin nhắn, ứng dụng",
+        "sportsModes": ["Đo lường nhịp tim", "Bước đi", "Theo dõi giấc ngủ"]
+      },
+      "operatingSystemSupport": {
+        "supportedOS": "Tizen OS",
+        "softwareUpdate": "Tự động qua kết nối Bluetooth"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Huawei Watch GT 4 41mm dây cao su",
+      "price": { "new": "3.490.000₫", "old": "4.990.000₫" },
+      "discount": "30%",
+      "rating": "⭐4.9",
+      "images": [
+        "/assets/images/Devices/SmartWatch/huawei03.01.jpg",
+        "/assets/images/Devices/SmartWatch/huawei03.02.jpg",
+        "/assets/images/Devices/SmartWatch/huawei03.03.jpg",
+        "/assets/images/Devices/SmartWatch/huawei03.04.jpg",
+        "/assets/images/Devices/SmartWatch/huawei03.05.jpg",
+        "/assets/images/Devices/SmartWatch/huawei03.06.jpg"
+      ],
+      "description": "Màn hình AMOLED, 1.6 inch, pin 7 ngày",
+      "policy": [
+        "Bộ sản phẩm gồm: Dây sạc, Sách hướng dẫn, Hộp",
+        "Bảo hành có cam kết 12 tháng",
+        "Pin 7 ngày, bảo mật tốt",
+        "Bảo hành chính hãng đồng hồ thông minh 1 năm tại các trung tâm bảo hành hãng Xem địa chỉ bảo hành"
+      ],
+      "thumbnail": "/assets/images/Devices/SmartWatch/huawei-thumbnail.jpg",
+      "screen": {
+        "screenTechnology": "AMOLED",
+        "resolution": "466 x 466 pixels",
+        "size": "1.32 inch"
+      },
+      "design": {
+        "frontMaterial": "Kính cường lực 2.5D",
+        "frameMaterial": "Thép không gỉ",
+        "strapWidth": "1.8cm",
+        "wristCircumference": "Cao su",
+        "replaceableStrap": true
+      },
+      "utilities": {
+        "sports": ["Đạp xe", "Quần vợt", "Cầu lông", "Bóng rổ", "Bóng đá"],
+        "specialFeatures": "Kháng nước 5 ATM (Tắm, bơi vùng nước nông)",
+        "healthTracking": [
+          "Đo nồng độ oxy (SpO2)",
+          "Phát hiện tiếng ngáy",
+          "Theo dõi giấc ngủ",
+          "Đo nhịp tim",
+          "Đếm số bước chân"
+        ]
+      },
+      "configuration": {
+        "internalStorage": "4 GB",
+        "operatingSystem": "Hãng không công bố",
+        "compatibleOS": "Android 8.0 trở lên iOS 13 trở lên",
+        "connectivity": "Bluetooth v5.4"
+      },
+      "battery": {
+        "capacity": "233 mAh",
+        "usageTime": "Khoảng 7 ngày (ở chế độ cơ bản),Khoảng 2 ngày (ở chế độ Always On Display)",
+        "chargingTime": "2 giờ"
+      },
+      "specialFunctions": {
+        "waterResistance": "5ATM (Chống nước ở độ sâu 50m)",
+        "GPS": "Có (kết nối với điện thoại)",
+        "notifications": "Có thông báo cuộc gọi, tin nhắn, ứng dụng",
+        "sportsModes": ["Đo lường nhịp tim", "Bước đi", "Theo dõi giấc ngủ"]
+      },
+      "operatingSystemSupport": {
+        "supportedOS": "Tizen OS",
+        "softwareUpdate": "Tự động qua kết nối Bluetooth"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Garmin Venu 3 45mm dây silicone",
+      "price": { "new": "10.440.000₫", "old": "12.350.000₫" },
+      "discount": "15%",
+      "rating": "⭐5",
+      "images": [
+        "/assets/images/Devices/SmartWatch/garmin04.01.jpg",
+        "/assets/images/Devices/SmartWatch/garmin04.02.jpg",
+        "/assets/images/Devices/SmartWatch/garmin04.03.jpg",
+        "/assets/images/Devices/SmartWatch/garmin04.04.jpg",
+        "/assets/images/Devices/SmartWatch/garmin04.05.jpg"
+      ],
+      "description": "Màn hình AMOLED, 1.6 inch, pin 7 ngày",
+      "policy": [
+        "Bộ sản phẩm gồm: Dây sạc, Sách hướng dẫn, Hộp",
+        "Bảo hành có cam kết 12 tháng",
+        "Pin 7 ngày, bảo mật tốt",
+        "Bảo hành chính hãng đồng hồ thông minh 1 năm tại các trung tâm bảo hành hãng Xem địa chỉ bảo hành"
+      ],
+      "thumbnail": "/assets/images/Devices/SmartWatch/garmin04.05.jpg",
+      "screen": {
+        "screenTechnology": "AMOLED",
+        "resolution": "454 x 454 pixels",
+        "size": "1.4 inch"
+      },
+      "design": {
+        "frontMaterial": "Kính cường lực Gorilla Glass 3",
+        "frameMaterial": "Khung Polyme - Viền thép không gỉ",
+        "strapWidth": "2.2 cm",
+        "wristCircumference": "Silicone",
+        "replaceableStrap": true
+      },
+      "utilities": {
+        "sports": ["Đạp xe", "Quần vợt", "Cầu lông", "Bóng rổ", "Bóng đá"],
+        "specialFeatures": "Kháng nước 5 ATM (Tắm, bơi vùng nước nông)",
+        "healthTracking": [
+          "Đo nồng độ oxy (SpO2)",
+          "Phát hiện tiếng ngáy",
+          "Theo dõi giấc ngủ",
+          "Đo nhịp tim",
+          "Đếm số bước chân"
+        ]
+      },
+      "configuration": {
+        "internalStorage": "8 GB",
+        "operatingSystem": "Hãng không công bố",
+        "compatibleOS": "Android 10.0 trở lên iOS 15.0 trở lên",
+        "connectivity": "Bluetooth v5.4"
+      },
+      "battery": {
+        "capacity": "233 mAh",
+        "usageTime": "Khoảng 26 ngày (ở chế độ tiết kiệm pin) Khoảng 14 ngày (ở chế độ đồng hồ thông minh)",
+        "chargingTime": "2 giờ"
+      },
+      "specialFunctions": {
+        "waterResistance": "5ATM (Chống nước ở độ sâu 50m)",
+        "GPS": "Có (kết nối với điện thoại)",
+        "notifications": "Có thông báo cuộc gọi, tin nhắn, ứng dụng",
+        "sportsModes": ["Đo lường nhịp tim", "Bước đi", "Theo dõi giấc ngủ"]
+      },
+      "operatingSystemSupport": {
+        "supportedOS": "Đài Loan",
+        "softwareUpdate": "Tự động qua kết nối Bluetooth"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Amazfit Active 42.3mm dây silicone",
+      "price": { "new": "1.990.000₫", "old": "2.990.000₫₫" },
+      "discount": "33%",
+      "rating": "⭐4.8",
+      "images": [
+        "/assets/images/Devices/SmartWatch/amazfit05.01.jpg",
+        "/assets/images/Devices/SmartWatch/amazfit05.02.jpg",
+        "/assets/images/Devices/SmartWatch/amazfit05.03.jpg",
+        "/assets/images/Devices/SmartWatch/amazfit05.04.jpg",
+        "/assets/images/Devices/SmartWatch/amazfit05.05.jpg",
+        "/assets/images/Devices/SmartWatch/amazfit05.06.jpg"
+      ],
+      "description": "Màn hình AMOLED, 1.6 inch, pin 7 ngày",
+      "policy": [
+        "Bộ sản phẩm gồm: Dây sạc, Sách hướng dẫn, Hộp",
+        "Bảo hành có cam kết 12 tháng",
+        "Pin 7 ngày, bảo mật tốt",
+        "Bảo hành chính hãng đồng hồ thông minh 1 năm tại các trung tâm bảo hành hãng Xem địa chỉ bảo hành"
+      ],
+      "thumbnail": "/assets/images/Devices/SmartWatch/amazfit-thumbnail.jpg",
+      "screen": {
+        "screenTechnology": "AMOLED",
+        "resolution": "390 x 450 pixels",
+        "size": "1.75 inch"
+      },
+      "design": {
+        "frontMaterial": "Kính cường lực",
+        "frameMaterial": "Hợp kim nhôm",
+        "strapWidth": "2 cm",
+        "wristCircumference": "Silicone",
+        "replaceableStrap": true
+      },
+      "utilities": {
+        "sports": ["Đạp xe", "Quần vợt", "Cầu lông", "Bóng rổ", "Bóng đá"],
+        "specialFeatures": "Kháng nước 5 ATM (Tắm, bơi vùng nước nông)",
+        "healthTracking": [
+          "Đo nồng độ oxy (SpO2)",
+          "Phát hiện tiếng ngáy",
+          "Theo dõi giấc ngủ",
+          "Đo nhịp tim",
+          "Đếm số bước chân"
+        ]
+      },
+      "configuration": {
+        "internalStorage": "Hơn 250 MB",
+        "operatingSystem": "Hãng không công bố",
+        "compatibleOS": "Android 7.0 trở lên iOS 12 trở lên",
+        "connectivity": "Bluetooth v5.0"
+      },
+      "battery": {
+        "capacity": "300 mAh",
+        "usageTime": "Khoảng 16 giờ (Sử dụng GPS liên tục) Khoảng 14 ngày (ở chế độ cơ bản)",
+        "chargingTime": "2 giờ"
+      },
+      "specialFunctions": {
+        "waterResistance": "5ATM (Chống nước ở độ sâu 50m)",
+        "GPS": "Có (kết nối với điện thoại)",
+        "notifications": "Có thông báo cuộc gọi, tin nhắn, ứng dụng",
+        "sportsModes": ["Đo lường nhịp tim", "Bước đi", "Theo dõi giấc ngủ"]
+      },
+      "operatingSystemSupport": {
+        "supportedOS": "Zepp OS 2.0",
+        "softwareUpdate": "Tự động qua kết nối Bluetooth"
+      }
+    }
+  ]
+}

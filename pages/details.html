@@ -42,47 +42,56 @@
     <section class="header__bar py-4 bg-white" id="navbar"></section>
 
     <!-- *Detail* -->
-    <section class="details py-5">
+    <section class="details__product py-5">
       <div class="container">
         <div class="row" style="gap: 20px">
-          <h3 class="mb-3">Vòng tay thông minh Samsung Galaxy Fit3</h3>
+          <h3 class="mb-3 detail__title">
+            Vòng tay thông minh Samsung Galaxy Fit3
+          </h3>
           <div class="col-md-7 p-1" style="margin-top: -3px">
             <div class="bg-white shadow rounded-3 mb-3">
-              <div class=""></div>
-              <div class="rounded-3">
+              <div class="rounded-3 detail__wrap">
                 <img
                   src="/assets/images/Devices/SmartWatch/samsung-galaxy-fit3-hong-hc-1-750x500.jpg"
                   alt="Samsung Galaxy Fit3"
-                  class="img-fluid"
+                  class="img-fluid wrap__img"
                 />
               </div>
             </div>
 
             <!-- *Product Info* -->
             <div class="mb-3 bg-white shadow ps-2 py-3 rounded-3 shadow">
-              <h5>TechStore xin cam kết</h5>
+              <h5 class="detail__sub">TechStore xin cam kết</h5>
               <div class="d-flex flex-wrap">
-                <div class="d-flex flex-row me-5 align-items-center">
-                  <i class="ri-archive-line fs-3 text-primary opacity-75"></i>
-                  <p class="ms-2 mb-0 text-secondary small">
+                <div
+                  class="d-flex flex-row me-5 align-items-center detail__info"
+                >
+                  <i
+                    class="ri-archive-line fs-3 text-primary opacity-75 detail__icon"
+                  ></i>
+                  <p class="ms-2 mb-0 text-secondary small detail__desc">
                     Bộ sản phẩm gồm: Dây sạc, Sách hướng dẫn, Hộp
                   </p>
                 </div>
-                <div class="d-flex flex-row flex-row align-items-center">
+                <div
+                  class="d-flex flex-row flex-row align-items-center detail__info"
+                >
                   <i
-                    class="ri-shield-check-line fs-3 text-primary opacity-75"
+                    class="ri-shield-check-line fs-3 text-primary opacity-75 detail__icon"
                   ></i>
-                  <p class="ms-2 mb-0 text-secondary small">
+                  <p class="ms-2 mb-0 text-secondary smal detail__descl">
                     Bảo hành có cam kết 12 tháng
                   </p>
                 </div>
                 <hr />
                 <br />
-                <div class="d-flex flex-row flex-row align-items-center">
+                <div
+                  class="d-flex flex-row flex-row align-items-center detail__info"
+                >
                   <i
-                    class="ri-shield-star-line fs-3 text-primary opacity-75"
+                    class="ri-shield-star-line fs-3 text-primary opacity-75 detail__icon"
                   ></i>
-                  <p class="ms-2 mb-0 w-50 text-secondary small">
+                  <p class="ms-2 mb-0 w-50 text-secondary small detail__desc">
                     Bảo hành chính hãng đồng hồ thông minh 1 năm tại các trung
                     tâm bảo hành hãng Xem địa chỉ bảo hành
                   </p>
@@ -91,19 +100,19 @@
             </div>
 
             <div class="bg-white shadow rounded-3 mb-3">
-              <div class="py-3">
+              <div class="py-3 detail__box">
                 <img
                   src="/assets/images/Devices/camera02.png"
                   alt="Camera Image"
-                  class="img-fluid object-fit-cover"
+                  class="img-fluid object-fit-cover detail__box--img"
                 />
               </div>
 
               <!-- *Accordion* -->
-              <div class="accordion" id="accordionExample">
+              <div class="accordion detail__accordion" id="accordionExample">
                 <!-- *Màn hình* -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div class="accordion-item detail__accordion--item">
+                  <h2 class="accordion-header detail__accordion--title">
                     <button
                       class="accordion-button"
                       type="button"
@@ -120,19 +129,27 @@
                     class="accordion-collapse collapse show"
                     data-bs-parent="#accordionExample"
                   >
-                    <div class="accordion-body">
-                      <div class="d-flex align-items-center">
-                        <strong class="me-5">Công nghệ màn hình:</strong>
+                    <div class="accordion-body detail__accordion--body">
+                      <div
+                        class="d-flex align-items-center detail__accordion--box"
+                      >
+                        <strong class="me-5 detail__accordion--screen"
+                          >Công nghệ màn hình:</strong
+                        >
                         <span>AMOLED</span>
                       </div>
                       <hr />
-                      <div>
-                        <strong class="me-5">Độ phân giải:</strong>
+                      <div class="detail__accordion--box">
+                        <strong class="me-5 detail__accordion--full"
+                          >Độ phân giải:</strong
+                        >
                         <span>240 x 120</span>
                       </div>
                       <hr />
-                      <div>
-                        <strong class="me-5">Kích thước:</strong>
+                      <div class="detail__accordion--box">
+                        <strong class="me-5 detail__accordion--size"
+                          >Kích thước:</strong
+                        >
                         <span>1.77 inch</span>
                       </div>
                     </div>
@@ -140,8 +157,8 @@
                 </div>
 
                 <!-- *Thiết kế* -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div class="accordion-item detail__accordion--item">
+                  <h2 class="accordion-header detail__accordion--title">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -158,34 +175,48 @@
                     class="accordion-collapse collapse"
                     data-bs-parent="#accordionExample"
                   >
-                    <div class="accordion-body">
-                      <div class="d-flex align-items-center">
-                        <strong class="me-5">Chất liệu mặt:</strong>
+                    <div class="accordion-body detail__accordion--body">
+                      <div
+                        class="d-flex align-items-center detail__accordion--box"
+                      >
+                        <strong class="me-5 detail__accordion--material"
+                          >Chất liệu mặt:</strong
+                        >
                         <span> Kính thường</span>
                       </div>
                       <hr />
                       <div>
-                        <strong class="me-5">Chất liệu khung viền:</strong>
+                        <strong class="me-5 detail__accordion--frame"
+                          >Chất liệu khung viền:</strong
+                        >
                         <span>Nhôm</span>
                       </div>
                       <hr />
                       <div>
-                        <strong class="me-5">Độ rộng dây:</strong>
+                        <strong class="me-5 detail__accordion--width"
+                          >Độ rộng dây:</strong
+                        >
                         <span>2.4cm</span>
                       </div>
                       <hr />
                       <div>
-                        <strong class="me-5">Chu vi cổ tay phù hợp:</strong>
+                        <strong class="me-5 detail__accordion--acreage"
+                          >Chu vi cổ tay phù hợp:</strong
+                        >
                         <span>Hàng không công bố</span>
                       </div>
                       <hr />
                       <div>
-                        <strong class="me-5">Khả năng thay dây:</strong>
+                        <strong class="me-5 detail__accordion--wire"
+                          >Khả năng thay dây:</strong
+                        >
                         <span>Có</span>
                       </div>
                       <hr />
                       <div>
-                        <strong class="me-5">Kích thước, khối lượng:</strong>
+                        <strong class="me-5 detail__accordion--parameter"
+                          >Kích thước, khối lượng:</strong
+                        >
                         <span>
                           Dài 42.9 mm - Ngang 28.8 mm - Dày 9.9 mm - Nặng 36.8 g
                         </span>
@@ -195,8 +226,8 @@
                 </div>
 
                 <!-- *Tiện ích* -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div class="accordion-item detail__accordion--item">
+                  <h2 class="accordion-header detail__accordion--title">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -214,7 +245,9 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <div class="d-flex align-items-center">
+                      <div
+                        class="d-flex align-items-center detail__accordion--body"
+                      >
                         <strong class="me-5">Môn thể thao:</strong>
                         <span>
                           <p>Đạp xe</p>
@@ -251,7 +284,7 @@
                 </div>
 
                 <!-- *Cấu hình & Kết nối* -->
-                <div class="accordion-item">
+                <div class="accordion-item detail__accordion--item">
                   <h2 class="accordion-header">
                     <button
                       class="accordion-button collapsed"
@@ -296,7 +329,7 @@
                 </div>
 
                 <!-- *Pin* -->
-                <div class="accordion-item">
+                <div class="accordion-item detail__accordion--item">
                   <h2 class="accordion-header">
                     <button
                       class="accordion-button collapsed"
@@ -334,7 +367,7 @@
                 </div>
 
                 <!-- *Tính năng đặc biệt* -->
-                <div class="accordion-item">
+                <div class="accordion-item detail__accordion--item">
                   <h2 class="accordion-header">
                     <button
                       class="accordion-button collapsed"
@@ -379,7 +412,7 @@
                 </div>
 
                 <!-- *Hệ điều hành* -->
-                <div class="accordion-item">
+                <div class="accordion-item detail__accordion--item">
                   <h2 class="accordion-header">
                     <button
                       class="accordion-button collapsed"
@@ -524,6 +557,7 @@
     <script src="/services/filterProduct.js" type="module"></script>
     <script src="/services/handleTimer.js" type="module"></script>
     <script src="/assets/js/script.js" type="module"></script>
+    <script src="/assets/js/product.js" type="module"></script>
 
     <!--=============== SWIPER ===============-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
