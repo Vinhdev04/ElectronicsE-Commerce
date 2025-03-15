@@ -23,6 +23,7 @@
   /* aspect-ratio: 1/1; */
 }
 
+/*=============Common===============*/
 .bg-cdd {
   background-color: #959fa8;
 }
@@ -126,6 +127,353 @@
 .pr-3 {
   padding-right: 3px;
 }
+
+/*=============Mega Menu===============*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* 
+html {
+  font-size: 62.5%;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+}
+body {
+  font-size: 1.6rem;
+} */
+
+:root {
+  --primary: #7f56d9;
+  --secondary: #f4ebff;
+  --text-primary: #101828;
+  --text-secondary: #667085;
+  --badge-bg: #ecfdf3;
+  --badge-text: #027a48;
+  --white: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: var(--white); */
+  position: relative;
+  height: 4rem;
+}
+
+.logo span {
+  color: #68642c;
+  font-weight: 600;
+  letter-spacing: 2.24px;
+}
+.nav__list {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 8px;
+  transition: 0.3s all ease-in;
+}
+
+.nav__list:hover .nav__link {
+  color: #031f41;
+}
+
+.nav__list:active .nav__link {
+  font-weight: bold;
+}
+
+.nav__btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav__link {
+  gap: 0;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: 0.3s all linear;
+}
+.nav__link:hover {
+  color: rgb(41, 41, 231);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  color: var(--text-primary);
+  gap: 1rem;
+}
+
+.btn.btn--first {
+  /* border-radius: 1.5rem; */
+  color: var(--white);
+  display: inline-flex;
+  font-weight: 500;
+  background: var(--primary);
+  /* padding: 0.6rem 1.5rem; */
+  transition: 0.3s all ease-in;
+}
+
+.btn.btn--second {
+  /* border-radius: 1.5rem; */
+  color: #003981;
+  background: transparent;
+  border: 1px dashed #003981;
+  display: inline-flex;
+  font-weight: 500;
+  /* padding: 0.6rem 1.5rem; */
+  transition: 0.3s all ease-in;
+}
+
+.btn--first:hover {
+  opacity: 0.7;
+  background: transparent;
+  border: 1px dashed #003981;
+  color: #003981;
+}
+
+.btn.btn--second:hover {
+  color: var(--white);
+  background: #003981;
+}
+
+.nav__toggle {
+  cursor: pointer;
+  display: none;
+}
+
+.nav__toggle img {
+  font-size: 3.5rem;
+  color: var(--text-primary);
+}
+
+.dropdown {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: all 0.5s ease-in;
+  z-index: 100;
+}
+
+.dropdown__inner {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 4fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.nav__list--menu:hover .nav__link img {
+  transition: all 0.5s ease-in;
+  transform: rotate(180deg);
+}
+
+.nav__list--menu:hover .dropdown {
+  clip-path: polygon(0 0, 100% 0, 100% 102%, 0 102%);
+}
+.list__item--img img {
+  width: 100%;
+}
+.dropdown .list__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.dropdown .list__item--img {
+  /* width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--secondary); */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown .list__item-info {
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .info-badge {
+  position: absolute;
+  right: 2rem;
+  top: -3px;
+  background: var(--badge-bg);
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  color: var(--badge-text);
+  font-weight: 500;
+}
+.nav__menu {
+  font-size: 20px !important;
+}
+.nav__menu.show {
+  display: block;
+}
+
+.nav__toggle .nav__list--close {
+  display: none;
+}
+/* 🌟 Tạo điểm nhấn cho tiêu đề */
+.nav__menu .nav__link span {
+  position: relative;
+  display: inline-block;
+
+  transition: color 0.3s ease-in-out;
+}
+
+/* 🌟 Hiệu ứng underline khi hover */
+.nav__menu .nav__link span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -4px;
+  left: 0;
+  background: linear-gradient(90deg, #363ad3, #423fdb);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-out;
+}
+
+.nav__menu .nav__link:hover span {
+  color: rgb(39, 39, 226);
+}
+
+.nav__menu .nav__link:hover span::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* 🌟 Hiệu ứng cho Dropdown */
+.dropdown {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav__list--menu:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+/* 🌟 Cải tiến tiêu đề của Dropdown */
+.dropdown__heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4500;
+  text-transform: uppercase;
+  border-left: 4px solid #ff4500;
+  padding-left: 10px;
+}
+
+/* 🌟 Hover cho items trong dropdown */
+.list__item {
+  transition: background-color 0.3s ease;
+}
+
+.list__item:hover {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+/* 🌟 Hiệu ứng cho Button */
+.btn--first,
+.btn--second {
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn--second {
+  background: linear-gradient(135deg, #ff7b00, #ff3d00);
+  color: white;
+  border: none;
+}
+
+.btn--second:hover {
+  opacity: 0.9;
+}
+
+/* 🌟 Cải thiện Toggle Menu trên Mobile */
+.nav__toggle--img {
+  transition: transform 0.3s ease;
+}
+
+.nav__toggle--menu:hover {
+  transform: rotate(90deg);
+}
+@media (max-width: 730px) {
+  .nav__menu {
+    display: none;
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    width: 100%;
+    background: #fff;
+  }
+
+  .nav__menu.show {
+    display: block;
+  }
+
+  .nav__menu .nav__list {
+    display: block;
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .nav__menu .nav__link {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dropdown {
+    position: relative;
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    box-shadow: none;
+    text-align: start;
+    transition: 0.5s all ease-in;
+    height: 0;
+  }
+
+  .nav__list--menu:hover .dropdown {
+    height: 100%;
+    transition: 0.5s all ease-in;
+  }
+  .nav__toggle {
+    display: block;
+  }
+  .nav__toggle--close {
+    display: none;
+    transition: 0.5s all ease-in;
+  }
+}
+
+@media (max-width: 365px) {
+  .logo__img {
+    width: 10rem;
+  }
+  .nav__btn {
+    padding: 0.4rem 1rem;
+  }
+  .nav__toggle--close {
+    display: none;
+    transition: 0.5s all ease-in;
+  }
+}
+
 /* -------- Custom Swiper  -------- */
 .swiper-pagination-bullet {
   width: 14px;

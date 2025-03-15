@@ -132,8 +132,8 @@
 
       .dropdown .info-badge {
         position: absolute;
-        right: 1rem;
-        top: 0;
+        right: 2rem;
+        top: -3px;
         background: var(--badge-bg);
         padding: 0.1rem 0.5rem;
         border-radius: 1rem;
@@ -191,6 +191,10 @@
         .nav__toggle {
           display: block;
         }
+        .nav__toggle--close {
+          display: none;
+          transition: 0.5s all ease-in;
+        }
       }
 
       @media (max-width: 365px) {
@@ -199,6 +203,10 @@
         }
         .nav__btn {
           padding: 0.4rem 1rem;
+        }
+        .nav__toggle--close {
+          display: none;
+          transition: 0.5s all ease-in;
         }
       }
     </style>
@@ -525,19 +533,26 @@
     </header>
   </body>
   <script>
-    const btnMenu = document.querySelector(".nav__toggle");
+    const btnMenu = document.querySelector(".nav__toggle .nav__toggle--menu");
+    const btnClose = document.querySelector(".nav__toggle .nav__toggle--close");
     const navMenu = document.querySelector(".nav__menu");
-    const navToggle = document.querySelectorAll(".nav__toggle img"); // Lấy tất cả các hình ảnh
+    const navToggle = document.querySelectorAll(".nav__toggle img");
 
     btnMenu.addEventListener("click", () => {
       navMenu.classList.toggle("show");
       if (navMenu.classList.contains("show")) {
-        navToggle[0].style.display = "none"; // Ẩn icon menu
-        navToggle[1].style.display = "block"; // Hiển thị icon close
+        navToggle[0].style.display = "none"; // Hide menu icon
+        navToggle[1].style.display = "block"; // Show close icon
       } else {
-        navToggle[0].style.display = "block"; // Hiển thị icon menu
-        navToggle[1].style.display = "none"; // Ẩn icon close
+        navToggle[0].style.display = "block"; // Show menu icon
+        navToggle[1].style.display = "none"; // Hide close icon
       }
+    });
+
+    btnClose.addEventListener("click", () => {
+      navMenu.classList.remove("show");
+      navToggle[0].style.display = "block"; // Show menu icon
+      navToggle[1].style.display = "none"; // Hide close icon
     });
   </script>
   <script
