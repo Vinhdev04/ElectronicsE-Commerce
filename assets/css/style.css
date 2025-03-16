@@ -324,7 +324,6 @@ body {
 .nav__menu .nav__link span {
   position: relative;
   display: inline-block;
-
   transition: color 0.3s ease-in-out;
 }
 
@@ -349,6 +348,11 @@ body {
 .nav__menu .nav__link:hover span::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+.nav__menu .nav__list .nav__link.active {
+  color: rgb(39, 39, 226);
+  font-weight: 600;
 }
 
 /* 🌟 Hiệu ứng cho Dropdown */
@@ -489,6 +493,32 @@ body {
 .swiper-slide-button {
   color: #5372f0;
   margin-top: -35px;
+}
+
+/* -------- Custom SLDLIDE JS -------- */
+.my-slider-progress {
+  background: #ccc;
+}
+
+.my-slider-progress-bar {
+  background: greenyellow;
+  height: 2px;
+  transition: width 400ms ease;
+  width: 0;
+}
+
+.splide__slide img {
+  opacity: 1 !important; /* Chắc chắn ảnh hiển thị */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.lazyload {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.lazyloaded {
+  opacity: 1;
 }
 
 .card-trans {
@@ -732,11 +762,13 @@ body {
   cursor: pointer;
   transition: 0.3s all linear;
 }
+
 .social__box:hover {
   box-shadow: 0 0 10px rgb(160, 58, 160);
   border: 1px solid #1a3fd3;
   /* transform: translateY(-10px); */
 }
+
 .social__box img {
   transition: 0.3s all linear;
 }

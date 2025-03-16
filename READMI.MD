@@ -66,6 +66,10 @@ Author: @Vinhdev04
   -> https://sweetalert2.github.io/
 - EmailJS
   -> https://www.emailjs.com/
+- Splide JS
+  -> https://splidejs.com/
+- LayzySizes
+  -> https://www.npmjs.com/package/lazysizes/v/1.0.0
 
 # 3. Chức năng chính:
 
@@ -84,6 +88,6 @@ Author: @Vinhdev04
 - Lấy ID từ URL (id=1, id=2...)
 - Tìm sản phẩm theo ID trong danh sách
 - Hiển thị thông tin sản phẩm tương ứng
-- // Lấy ID từ URL:
+- Lấy ID từ URL:
 - const params = new URLSearchParams(window.location.search);
 - const productId = parseInt(params.get("id"));
