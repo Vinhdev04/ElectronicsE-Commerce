@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <hSm>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Vaniiz It | Web Development" />
@@ -420,33 +420,155 @@
         </nav>
       </div>
     </header>
+
     <!-- *Header* -->
-    <header class="py-5 border-bottom bg-light">
+    <section class="py-5 border-bottom bg-light">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5">
             <div class="mb-3 mb-md-0">
-              <h4 class="text-uppercase text-warning">Sale up to 30% off</h4>
-              <h1 class="mt-3 me-4">Apple Watch Series</h1>
-              <p class="">
-                Featured packed at a better value than over powerful sensors to
-                monitor your fitness
+              <h4 class="text-uppercase text-warning">Ưu Đãi Đặc Biệt</h4>
+              <h1 class="me-4 fw-bold text-dark">Smartphone Mới Nhất</h1>
+              <p class="text-secondary fs-5 small">
+                Trải nghiệm công nghệ tiên tiến, hiệu suất vượt trội và thiết kế
+                sang trọng.
               </p>
-              <button class="btn btn-danger rounded-pill">Shop Now</button>
+              <a
+                href=""
+                class="text-decoration-none btn btn-primary btn-cart rounded-pill px-4 py-2 fw-bold shadow-lg text-uppercase text-white d-inline-flex"
+              >
+                Mua Ngay
+              </a>
             </div>
           </div>
           <div class="col-md-7">
             <div>
               <img
-                src="/assets/images/Devices/Image 1.png"
-                alt=""
-                class="img-fluid shadow"
+                data-src="/assets/images/Banner/10.png"
+                alt="Smartphone Sale"
+                class="img-fluid shadow rounded lazyload"
               />
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </section>
+
+    <!-- *Slider-Banner* -->
+    <section class="pt-4 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="splide" id="bannerL-slider">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <!-- *Slide 1* -->
+                  <li class="splide__slide">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <!-- NOTE: scr=data-splide-lazy -> trong splide js -->
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart01.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart02.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- *Slide 2* -->
+                  <li class="splide__slide">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart03.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart04.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- *Slide 3* -->
+                  <li class="splide__slide">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart05.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart06.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- *Slide 4* -->
+                  <li class="splide__slide">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart07.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart08.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- *Slide 5* -->
+                  <li class="splide__slide">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart09.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <img
+                          data-splide-lazy="/assets/images/Banner/bannerSmart10.png"
+                          alt="Banner 1"
+                          class="img-fluid rounded-2 shadow"
+                        />
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- *Slider-Banner* -->
     <section class="pt-4 border-bottom">
@@ -3623,6 +3745,7 @@
     <script src="/services/handleTimer.js" type="module"></script>
     <script src="/assets/js/main.js" type="module"></script>
     <script src="/assets/js/script.js" type="module"></script>
+    <script src="/services/handleSplide.js" type="module"></script>
     <!--=============== SWIPER ===============-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--=============== BOOTSTRAP ===============-->
